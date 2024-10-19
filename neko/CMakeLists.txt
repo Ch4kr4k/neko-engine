@@ -24,8 +24,13 @@ target_include_directories(neko PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/vendor/include
 )
 
+if(POLICY CMP0072)
+    cmake_policy(SET CMP0072 NEW)
+endif()
 # Link OpenGL and GLFW
 find_package(OpenGL REQUIRED)
+# Set the OpenGL preference to GLVND
+set(OpenGL_GL_PREFERENCE "GLVND")
 target_link_libraries(neko 
   PRIVATE glfw 
   PRIVATE OpenGL::GL
