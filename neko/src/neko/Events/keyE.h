@@ -83,4 +83,21 @@ namespace NEKO
 			// Macro to define the type of this event as `KeyReleased`.
 			EVENT_CLASS_TYPE(KeyReleased)
 	};
+
+	class NekoApi KeyTyped : public KeyEvent {
+
+		public:
+			// Constructor that takes the keycode and repeat count (how many times the key was pressed).
+			KeyTyped(int keycode)
+				: KeyEvent(keycode){}
+
+			std::string ToString() const override
+			{
+				std::stringstream ss;
+				ss << "KeyTyped: " << m_KeyCode;
+				return ss.str();
+			}
+			EVENT_CLASS_TYPE(KeyPressed)
+	};
+
 }

@@ -9,6 +9,9 @@
 #include "neko/Events/keyE.h"
 #include <X11/Xlib.h>
 
+#include "glad/glad.h"
+//#include "GLFW/glfw3.h"
+
 namespace NEKO
 {
     // Static variable to track if GLFW has been initialized. Ensures GLFW is initialized only once.
@@ -69,6 +72,11 @@ namespace NEKO
 
         // Make the created window's OpenGL context current
         glfwMakeContextCurrent(m_Window);
+
+        // glad stuffs
+        int status = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
+        if (!status) NEKO_CORE_ERR("Failed To Load GLAD");
+
         // Associate the m_Data structure with the GLFW window for future reference
         glfwSetWindowUserPointer(m_Window, &m_Data);
 
@@ -159,6 +167,14 @@ namespace NEKO
         {
             WindowData &data = *(WindowData*)glfwGetWindowUserPointer(window);
             MouseMovedEvent event((float)xPos, (float)yPos);
+            data.EventCallback(event);
+        });
+
+        glfwSetCharCallback(m_Window, [](GLFWwindow *window, unsigned int keycode)
+        {
+            WindowData &data = *(WindowData*)glfwGetWindowUserPointer(window);
+
+            KeyTyped event(keycode);
             data.EventCallback(event);
         });
 

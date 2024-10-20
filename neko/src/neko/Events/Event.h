@@ -13,7 +13,7 @@ namespace NEKO
         None = 0,                    // Default case, no event.
         WindowClose, WindowResize, WindowFocus, WindowLostFocus, WindowMoved,
         AppTick, AppUpdate, AppRender,   // App-level events.
-        KeyPressed, KeyReleased,         // Keyboard events.
+        KeyPressed, KeyReleased,KeyTyped,         // Keyboard events.
         MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled // Mouse events.
     };
 
