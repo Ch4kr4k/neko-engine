@@ -1,7 +1,6 @@
 #include "NPCH.h"
 #include "layerstack.h"
 
-
 namespace NEKO
 {
     LayerStack::LayerStack() { }

@@ -27,7 +27,7 @@ class SboxApp : public NEKO::Application{
         SboxApp()
         {
             PushLayer(new ex_layer());
-            PushOverlay(new NEKO::imgui_layer);
+            // PushOverlay(new NEKO::imgui_layer);
         }
 
         ~SboxApp()
