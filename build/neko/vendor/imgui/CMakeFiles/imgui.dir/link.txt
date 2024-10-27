@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/build/Out/app/lib/libimgui.a CMakeFiles/imgui.dir/imgui.cpp.o CMakeFiles/imgui.dir/imgui_draw.cpp.o CMakeFiles/imgui.dir/imgui_widgets.cpp.o CMakeFiles/imgui.dir/imgui_demo.cpp.o CMakeFiles/imgui.dir/imgui_tables.cpp.o
+/usr/bin/ranlib /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/build/Out/app/lib/libimgui.a
