@@ -5,6 +5,7 @@
 #include "window.h"
 #include "neko/Events/appE.h"
 #include "layerstack.h"
+#include "neko/imgui/imgui_layer.h"
 
 namespace NEKO
 {
@@ -23,6 +24,7 @@ namespace NEKO
         private:
             bool OnWindowClose(WindowCloseEvent &e);
             std::unique_ptr<Window> m_Window;
+            imgui_layer *m_imgui_layer;
             bool m_Running = true;
             LayerStack m_LayerStack;
         private:

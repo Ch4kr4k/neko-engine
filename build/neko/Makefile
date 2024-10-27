@@ -199,6 +199,30 @@ src/neko/app.cpp.s:
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/app.cpp.s
 .PHONY : src/neko/app.cpp.s
 
+src/neko/imgui/imgui_build.o: src/neko/imgui/imgui_build.cpp.o
+.PHONY : src/neko/imgui/imgui_build.o
+
+# target to build an object file
+src/neko/imgui/imgui_build.cpp.o:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.o
+.PHONY : src/neko/imgui/imgui_build.cpp.o
+
+src/neko/imgui/imgui_build.i: src/neko/imgui/imgui_build.cpp.i
+.PHONY : src/neko/imgui/imgui_build.i
+
+# target to preprocess a source file
+src/neko/imgui/imgui_build.cpp.i:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.i
+.PHONY : src/neko/imgui/imgui_build.cpp.i
+
+src/neko/imgui/imgui_build.s: src/neko/imgui/imgui_build.cpp.s
+.PHONY : src/neko/imgui/imgui_build.s
+
+# target to generate assembly for a file
+src/neko/imgui/imgui_build.cpp.s:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.s
+.PHONY : src/neko/imgui/imgui_build.cpp.s
+
 src/neko/imgui/imgui_layer.o: src/neko/imgui/imgui_layer.cpp.o
 .PHONY : src/neko/imgui/imgui_layer.o
 
@@ -295,30 +319,6 @@ src/neko/log.cpp.s:
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/log.cpp.s
 .PHONY : src/neko/log.cpp.s
 
-src/neko/platform/opengl/imgui_impl_opengl3.o: src/neko/platform/opengl/imgui_impl_opengl3.cpp.o
-.PHONY : src/neko/platform/opengl/imgui_impl_opengl3.o
-
-# target to build an object file
-src/neko/platform/opengl/imgui_impl_opengl3.cpp.o:
-	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.o
-.PHONY : src/neko/platform/opengl/imgui_impl_opengl3.cpp.o
-
-src/neko/platform/opengl/imgui_impl_opengl3.i: src/neko/platform/opengl/imgui_impl_opengl3.cpp.i
-.PHONY : src/neko/platform/opengl/imgui_impl_opengl3.i
-
-# target to preprocess a source file
-src/neko/platform/opengl/imgui_impl_opengl3.cpp.i:
-	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.i
-.PHONY : src/neko/platform/opengl/imgui_impl_opengl3.cpp.i
-
-src/neko/platform/opengl/imgui_impl_opengl3.s: src/neko/platform/opengl/imgui_impl_opengl3.cpp.s
-.PHONY : src/neko/platform/opengl/imgui_impl_opengl3.s
-
-# target to generate assembly for a file
-src/neko/platform/opengl/imgui_impl_opengl3.cpp.s:
-	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.s
-.PHONY : src/neko/platform/opengl/imgui_impl_opengl3.cpp.s
-
 src/neko/platform/windows/wininput.o: src/neko/platform/windows/wininput.cpp.o
 .PHONY : src/neko/platform/windows/wininput.o
 
@@ -383,6 +383,9 @@ help:
 	@echo "... src/neko/app.o"
 	@echo "... src/neko/app.i"
 	@echo "... src/neko/app.s"
+	@echo "... src/neko/imgui/imgui_build.o"
+	@echo "... src/neko/imgui/imgui_build.i"
+	@echo "... src/neko/imgui/imgui_build.s"
 	@echo "... src/neko/imgui/imgui_layer.o"
 	@echo "... src/neko/imgui/imgui_layer.i"
 	@echo "... src/neko/imgui/imgui_layer.s"
@@ -395,9 +398,6 @@ help:
 	@echo "... src/neko/log.o"
 	@echo "... src/neko/log.i"
 	@echo "... src/neko/log.s"
-	@echo "... src/neko/platform/opengl/imgui_impl_opengl3.o"
-	@echo "... src/neko/platform/opengl/imgui_impl_opengl3.i"
-	@echo "... src/neko/platform/opengl/imgui_impl_opengl3.s"
 	@echo "... src/neko/platform/windows/wininput.o"
 	@echo "... src/neko/platform/windows/wininput.i"
 	@echo "... src/neko/platform/windows/wininput.s"

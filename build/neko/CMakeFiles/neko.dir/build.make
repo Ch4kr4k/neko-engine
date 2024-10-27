@@ -83,10 +83,24 @@ neko/CMakeFiles/neko.dir/src/neko/app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neko.dir/src/neko/app.cpp.s"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/app.cpp -o CMakeFiles/neko.dir/src/neko/app.cpp.s
 
+neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.o: neko/CMakeFiles/neko.dir/flags.make
+neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/imgui/imgui_build.cpp
+neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.o"
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.o -MF CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.o.d -o CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/imgui/imgui_build.cpp
+
+neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.i"
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/imgui/imgui_build.cpp > CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.i
+
+neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.s"
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/imgui/imgui_build.cpp -o CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.s
+
 neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/imgui/imgui_layer.cpp
 neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.o"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.o -MF CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.o.d -o CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/imgui/imgui_layer.cpp
 
 neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.i: cmake_force
@@ -100,7 +114,7 @@ neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.s: cmake_force
 neko/CMakeFiles/neko.dir/src/neko/layer.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/layer.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/layer.cpp
 neko/CMakeFiles/neko.dir/src/neko/layer.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/layer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/layer.cpp.o"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/layer.cpp.o -MF CMakeFiles/neko.dir/src/neko/layer.cpp.o.d -o CMakeFiles/neko.dir/src/neko/layer.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/layer.cpp
 
 neko/CMakeFiles/neko.dir/src/neko/layer.cpp.i: cmake_force
@@ -114,7 +128,7 @@ neko/CMakeFiles/neko.dir/src/neko/layer.cpp.s: cmake_force
 neko/CMakeFiles/neko.dir/src/neko/layerstack.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/layerstack.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/layerstack.cpp
 neko/CMakeFiles/neko.dir/src/neko/layerstack.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/layerstack.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/layerstack.cpp.o"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/layerstack.cpp.o -MF CMakeFiles/neko.dir/src/neko/layerstack.cpp.o.d -o CMakeFiles/neko.dir/src/neko/layerstack.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/layerstack.cpp
 
 neko/CMakeFiles/neko.dir/src/neko/layerstack.cpp.i: cmake_force
@@ -128,7 +142,7 @@ neko/CMakeFiles/neko.dir/src/neko/layerstack.cpp.s: cmake_force
 neko/CMakeFiles/neko.dir/src/neko/log.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/log.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/log.cpp
 neko/CMakeFiles/neko.dir/src/neko/log.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/log.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/log.cpp.o"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/log.cpp.o -MF CMakeFiles/neko.dir/src/neko/log.cpp.o.d -o CMakeFiles/neko.dir/src/neko/log.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/log.cpp
 
 neko/CMakeFiles/neko.dir/src/neko/log.cpp.i: cmake_force
@@ -138,20 +152,6 @@ neko/CMakeFiles/neko.dir/src/neko/log.cpp.i: cmake_force
 neko/CMakeFiles/neko.dir/src/neko/log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neko.dir/src/neko/log.cpp.s"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/log.cpp -o CMakeFiles/neko.dir/src/neko/log.cpp.s
-
-neko/CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.o: neko/CMakeFiles/neko.dir/flags.make
-neko/CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/imgui_impl_opengl3.cpp
-neko/CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.o"
-	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.o -MF CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/imgui_impl_opengl3.cpp
-
-neko/CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.i"
-	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/imgui_impl_opengl3.cpp > CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.i
-
-neko/CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.s"
-	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/imgui_impl_opengl3.cpp -o CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.s
 
 neko/CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/windows/wininput.cpp
@@ -184,11 +184,11 @@ neko/CMakeFiles/neko.dir/src/neko/winwindows.cpp.s: cmake_force
 # Object files for target neko
 neko_OBJECTS = \
 "CMakeFiles/neko.dir/src/neko/app.cpp.o" \
+"CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/layer.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/layerstack.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/log.cpp.o" \
-"CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/winwindows.cpp.o"
 
@@ -196,18 +196,17 @@ neko_OBJECTS = \
 neko_EXTERNAL_OBJECTS =
 
 Out/app/lib/libneko.so: neko/CMakeFiles/neko.dir/src/neko/app.cpp.o
+Out/app/lib/libneko.so: neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.o
 Out/app/lib/libneko.so: neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.o
 Out/app/lib/libneko.so: neko/CMakeFiles/neko.dir/src/neko/layer.cpp.o
 Out/app/lib/libneko.so: neko/CMakeFiles/neko.dir/src/neko/layerstack.cpp.o
 Out/app/lib/libneko.so: neko/CMakeFiles/neko.dir/src/neko/log.cpp.o
-Out/app/lib/libneko.so: neko/CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.o
 Out/app/lib/libneko.so: neko/CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o
 Out/app/lib/libneko.so: neko/CMakeFiles/neko.dir/src/neko/winwindows.cpp.o
 Out/app/lib/libneko.so: neko/CMakeFiles/neko.dir/build.make
 Out/app/lib/libneko.so: neko/vendor/glfw/src/libglfw3.a
 Out/app/lib/libneko.so: lib/libglad.a
 Out/app/lib/libneko.so: /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/build/Out/app/lib/libimgui.a
-Out/app/lib/libneko.so: neko/vendor/glm/glm/libglm.a
 Out/app/lib/libneko.so: /usr/lib/librt.a
 Out/app/lib/libneko.so: /usr/lib/libm.so
 Out/app/lib/libneko.so: /usr/lib/libGLX.so

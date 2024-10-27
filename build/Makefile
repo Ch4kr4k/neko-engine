@@ -253,19 +253,6 @@ imgui/fast:
 .PHONY : imgui/fast
 
 #=============================================================================
-# Target rules for targets named glm
-
-# Build rule for target.
-glm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glm
-.PHONY : glm
-
-# fast build rule for target.
-glm/fast:
-	$(MAKE) $(MAKESILENT) -f neko/vendor/glm/glm/CMakeFiles/glm.dir/build.make neko/vendor/glm/glm/CMakeFiles/glm.dir/build
-.PHONY : glm/fast
-
-#=============================================================================
 # Target rules for targets named app
 
 # Build rule for target.
@@ -296,7 +283,6 @@ help:
 	@echo "... app"
 	@echo "... glad"
 	@echo "... glfw"
-	@echo "... glm"
 	@echo "... imgui"
 	@echo "... neko"
 .PHONY : help

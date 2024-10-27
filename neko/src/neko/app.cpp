@@ -1,11 +1,12 @@
 #include "app.h"
+#include "neko/imgui/imgui_layer.h"
 #include <functional>
+#include <memory>
 #define GLFW_INCLUDE_NONE
 #include "GLFW/glfw3.h"
 #include "glad/glad.h"
 #include "log.h"
 #include "input.h"
-#include <iostream>
 #include <utility>
 namespace NEKO
 {
@@ -20,6 +21,9 @@ namespace NEKO
         s_Instance = this;
         m_Window = std::unique_ptr<Window>(Window::Create());
         m_Window->SetEventCallback(BIND_EVENT_FN(OnEvent));
+
+        m_imgui_layer = new imgui_layer();
+        PushOverlay(m_imgui_layer);
     }
 
     Application::~Application() {}
@@ -57,9 +61,11 @@ namespace NEKO
             glClearColor(0.10588f, 0.10196f, 0.14902f, 1.0f);  // RGBA with alpha = 1.0f (fully opaque)
             glClear(GL_COLOR_BUFFER_BIT);  // Clear the color buffer
 
-            m_Window->OnUpdate();
-
             for (Layer *layer : m_LayerStack) layer->OnUpdate();
+
+            m_imgui_layer->Begin();
+            for (Layer *layer : m_LayerStack) layer->OnImGuiRender();
+            m_imgui_layer->End();
 
             m_Window->OnUpdate();
         }

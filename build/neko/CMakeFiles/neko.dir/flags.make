@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Dneko_EXPORTS
 
-CXX_INCLUDES = -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/src -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm/glm -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm
+CXX_INCLUDES = -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/src -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm/glm -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++20 -fPIC
 

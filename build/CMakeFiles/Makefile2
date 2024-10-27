@@ -100,14 +100,12 @@ neko/all: neko/CMakeFiles/neko.dir/all
 neko/all: neko/vendor/glfw/all
 neko/all: neko/vendor/glad/all
 neko/all: neko/vendor/imgui/all
-neko/all: neko/vendor/glm/all
 .PHONY : neko/all
 
 # Recursive "preinstall" directory target.
 neko/preinstall: neko/vendor/glfw/preinstall
 neko/preinstall: neko/vendor/glad/preinstall
 neko/preinstall: neko/vendor/imgui/preinstall
-neko/preinstall: neko/vendor/glm/preinstall
 .PHONY : neko/preinstall
 
 # Recursive "clean" directory target.
@@ -115,7 +113,6 @@ neko/clean: neko/CMakeFiles/neko.dir/clean
 neko/clean: neko/vendor/glfw/clean
 neko/clean: neko/vendor/glad/clean
 neko/clean: neko/vendor/imgui/clean
-neko/clean: neko/vendor/glm/clean
 .PHONY : neko/clean
 
 #=============================================================================
@@ -184,36 +181,6 @@ neko/vendor/glfw/src/clean: neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/
 .PHONY : neko/vendor/glfw/src/clean
 
 #=============================================================================
-# Directory level rules for directory neko/vendor/glm
-
-# Recursive "all" directory target.
-neko/vendor/glm/all: neko/vendor/glm/glm/all
-.PHONY : neko/vendor/glm/all
-
-# Recursive "preinstall" directory target.
-neko/vendor/glm/preinstall: neko/vendor/glm/glm/preinstall
-.PHONY : neko/vendor/glm/preinstall
-
-# Recursive "clean" directory target.
-neko/vendor/glm/clean: neko/vendor/glm/glm/clean
-.PHONY : neko/vendor/glm/clean
-
-#=============================================================================
-# Directory level rules for directory neko/vendor/glm/glm
-
-# Recursive "all" directory target.
-neko/vendor/glm/glm/all: neko/vendor/glm/glm/CMakeFiles/glm.dir/all
-.PHONY : neko/vendor/glm/glm/all
-
-# Recursive "preinstall" directory target.
-neko/vendor/glm/glm/preinstall:
-.PHONY : neko/vendor/glm/glm/preinstall
-
-# Recursive "clean" directory target.
-neko/vendor/glm/glm/clean: neko/vendor/glm/glm/CMakeFiles/glm.dir/clean
-.PHONY : neko/vendor/glm/glm/clean
-
-#=============================================================================
 # Directory level rules for directory neko/vendor/imgui
 
 # Recursive "all" directory target.
@@ -235,15 +202,14 @@ neko/vendor/imgui/clean: neko/vendor/imgui/CMakeFiles/imgui.dir/clean
 neko/CMakeFiles/neko.dir/all: neko/vendor/glfw/src/CMakeFiles/glfw.dir/all
 neko/CMakeFiles/neko.dir/all: neko/vendor/glad/CMakeFiles/glad.dir/all
 neko/CMakeFiles/neko.dir/all: neko/vendor/imgui/CMakeFiles/imgui.dir/all
-neko/CMakeFiles/neko.dir/all: neko/vendor/glm/glm/CMakeFiles/glm.dir/all
 	$(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/depend
 	$(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66 "Built target neko"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=56,57,58,59,60,61,62,63,64 "Built target neko"
 .PHONY : neko/CMakeFiles/neko.dir/all
 
 # Build rule for subdir invocation for target.
 neko/CMakeFiles/neko.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles 62
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 neko/CMakeFiles/neko.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles 0
 .PHONY : neko/CMakeFiles/neko.dir/rule
@@ -316,7 +282,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/clean:
 neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/build.make neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/build.make neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=67 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=65 "Built target update_mappings"
 .PHONY : neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -394,7 +360,7 @@ neko/vendor/glad/CMakeFiles/glad.dir/clean:
 neko/vendor/imgui/CMakeFiles/imgui.dir/all:
 	$(MAKE) $(MAKESILENT) -f neko/vendor/imgui/CMakeFiles/imgui.dir/build.make neko/vendor/imgui/CMakeFiles/imgui.dir/depend
 	$(MAKE) $(MAKESILENT) -f neko/vendor/imgui/CMakeFiles/imgui.dir/build.make neko/vendor/imgui/CMakeFiles/imgui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=52,53,54,55,56,57 "Built target imgui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=50,51,52,53,54,55 "Built target imgui"
 .PHONY : neko/vendor/imgui/CMakeFiles/imgui.dir/all
 
 # Build rule for subdir invocation for target.
@@ -414,32 +380,6 @@ neko/vendor/imgui/CMakeFiles/imgui.dir/clean:
 .PHONY : neko/vendor/imgui/CMakeFiles/imgui.dir/clean
 
 #=============================================================================
-# Target rules for target neko/vendor/glm/glm/CMakeFiles/glm.dir
-
-# All Build rule for target.
-neko/vendor/glm/glm/CMakeFiles/glm.dir/all:
-	$(MAKE) $(MAKESILENT) -f neko/vendor/glm/glm/CMakeFiles/glm.dir/build.make neko/vendor/glm/glm/CMakeFiles/glm.dir/depend
-	$(MAKE) $(MAKESILENT) -f neko/vendor/glm/glm/CMakeFiles/glm.dir/build.make neko/vendor/glm/glm/CMakeFiles/glm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=50,51 "Built target glm"
-.PHONY : neko/vendor/glm/glm/CMakeFiles/glm.dir/all
-
-# Build rule for subdir invocation for target.
-neko/vendor/glm/glm/CMakeFiles/glm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 neko/vendor/glm/glm/CMakeFiles/glm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles 0
-.PHONY : neko/vendor/glm/glm/CMakeFiles/glm.dir/rule
-
-# Convenience name for target.
-glm: neko/vendor/glm/glm/CMakeFiles/glm.dir/rule
-.PHONY : glm
-
-# clean rule for target.
-neko/vendor/glm/glm/CMakeFiles/glm.dir/clean:
-	$(MAKE) $(MAKESILENT) -f neko/vendor/glm/glm/CMakeFiles/glm.dir/build.make neko/vendor/glm/glm/CMakeFiles/glm.dir/clean
-.PHONY : neko/vendor/glm/glm/CMakeFiles/glm.dir/clean
-
-#=============================================================================
 # Target rules for target app/CMakeFiles/app.dir
 
 # All Build rule for target.
@@ -451,7 +391,7 @@ app/CMakeFiles/app.dir/all: neko/CMakeFiles/neko.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/app.dir/rule
