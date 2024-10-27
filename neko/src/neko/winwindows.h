@@ -38,7 +38,7 @@ namespace NEKO
         bool IsVSync() const override;
 
         // Returns the native GLFW window object (useful for lower-level operations).
-        virtual void* GetNativeWindow() const { return m_Window; }
+        inline virtual void* GetNativeWindow() const { return m_Window; }
 
     private:
         // Initializes the window with the specified properties (like title, width, height, etc.)

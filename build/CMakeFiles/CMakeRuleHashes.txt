@@ -1,0 +1,21 @@
+# Hashes of file build rules.
+5718702e15763fc2f1e1f4f491ad0c4d neko/vendor/glfw/CMakeFiles/uninstall
+a943848a18c6be0e73e7983bfeb9519b neko/vendor/glfw/src/CMakeFiles/update_mappings
+2893ee393ca672e57f4b6c6b057702e1 neko/vendor/glfw/src/fractional-scale-v1-client-protocol-code.h
+897cdf33baadc6d7d38063234e6debf7 neko/vendor/glfw/src/fractional-scale-v1-client-protocol.h
+4aface546b95c1b78350f634a84a1e9c neko/vendor/glfw/src/idle-inhibit-unstable-v1-client-protocol-code.h
+7b6050f52f7482acd4b2808273ae6feb neko/vendor/glfw/src/idle-inhibit-unstable-v1-client-protocol.h
+db4fd067e6d4dbc752f65d7c23222d91 neko/vendor/glfw/src/pointer-constraints-unstable-v1-client-protocol-code.h
+2fca9b8bbba31e478ffd66c0ffb55e20 neko/vendor/glfw/src/pointer-constraints-unstable-v1-client-protocol.h
+d33a1cdcbda02417e55ad04f8061b139 neko/vendor/glfw/src/relative-pointer-unstable-v1-client-protocol-code.h
+e599f6d7af978b283811ebb4ec7dc2a7 neko/vendor/glfw/src/relative-pointer-unstable-v1-client-protocol.h
+ba2ad8dfe57b64eccabcfc4e5087cb34 neko/vendor/glfw/src/viewporter-client-protocol-code.h
+b175b7eef23db733c9911f92f0832fd9 neko/vendor/glfw/src/viewporter-client-protocol.h
+e5170ee9b60cfcb4ac02e3abe7b6e178 neko/vendor/glfw/src/wayland-client-protocol-code.h
+ab36a3b53703f9eabc2202357cdb0033 neko/vendor/glfw/src/wayland-client-protocol.h
+4c47d482ebf895e76a1ee6b73baffa30 neko/vendor/glfw/src/xdg-activation-v1-client-protocol-code.h
+84795801719a1d89cd9ea7dc790fffb7 neko/vendor/glfw/src/xdg-activation-v1-client-protocol.h
+c9daf03810196a169f67b0f8638e50f7 neko/vendor/glfw/src/xdg-decoration-unstable-v1-client-protocol-code.h
+0916fa4037184a623bf7f98548c8d868 neko/vendor/glfw/src/xdg-decoration-unstable-v1-client-protocol.h
+70b911f82edb582a7605e1fcc7bc6751 neko/vendor/glfw/src/xdg-shell-client-protocol-code.h
+dc8dd7fe2ce3fcd295ce0555ea8783d4 neko/vendor/glfw/src/xdg-shell-client-protocol.h

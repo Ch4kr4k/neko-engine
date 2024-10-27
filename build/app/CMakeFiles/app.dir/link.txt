@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/app.dir/s_app.cpp.o -o ../Out/app/app  -Wl,-rpath,./lib:/home/chakrak/ws/proj/src/cpp/game_engine/build/Out/app/lib: ../Out/app/lib/libneko.so

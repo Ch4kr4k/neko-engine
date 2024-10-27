@@ -55,6 +55,7 @@ namespace NEKO
 
         // Check if VSync is enabled.
         virtual bool IsVSync() const = 0;
+        virtual void *GetNativeWindow() const = 0;
 
         // Static factory method to create a window. This ensures that only one window can be created at a time.
         // It takes window properties (with default values) and returns a pointer to the created window.

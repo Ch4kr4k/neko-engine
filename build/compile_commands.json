@@ -1,0 +1,254 @@
+[
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko",
+  "command": "/usr/bin/c++ -Dneko_EXPORTS -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/src -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm/glm -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/neko.dir/src/neko/app.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/app.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/app.cpp",
+  "output": "neko/CMakeFiles/neko.dir/src/neko/app.cpp.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko",
+  "command": "/usr/bin/c++ -Dneko_EXPORTS -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/src -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm/glm -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/imgui/imgui_layer.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/imgui/imgui_layer.cpp",
+  "output": "neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko",
+  "command": "/usr/bin/c++ -Dneko_EXPORTS -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/src -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm/glm -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/neko.dir/src/neko/layer.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/layer.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/layer.cpp",
+  "output": "neko/CMakeFiles/neko.dir/src/neko/layer.cpp.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko",
+  "command": "/usr/bin/c++ -Dneko_EXPORTS -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/src -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm/glm -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/neko.dir/src/neko/layerstack.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/layerstack.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/layerstack.cpp",
+  "output": "neko/CMakeFiles/neko.dir/src/neko/layerstack.cpp.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko",
+  "command": "/usr/bin/c++ -Dneko_EXPORTS -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/src -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm/glm -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/neko.dir/src/neko/log.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/log.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/log.cpp",
+  "output": "neko/CMakeFiles/neko.dir/src/neko/log.cpp.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko",
+  "command": "/usr/bin/c++ -Dneko_EXPORTS -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/src -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm/glm -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/imgui_impl_opengl3.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/imgui_impl_opengl3.cpp",
+  "output": "neko/CMakeFiles/neko.dir/src/neko/platform/opengl/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko",
+  "command": "/usr/bin/c++ -Dneko_EXPORTS -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/src -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm/glm -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/windows/wininput.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/windows/wininput.cpp",
+  "output": "neko/CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko",
+  "command": "/usr/bin/c++ -Dneko_EXPORTS -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/src -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm/glm -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/neko.dir/src/neko/winwindows.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/winwindows.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/winwindows.cpp",
+  "output": "neko/CMakeFiles/neko.dir/src/neko/winwindows.cpp.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/context.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/context.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/context.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/context.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/init.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/init.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/init.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/init.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/input.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/input.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/input.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/input.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/monitor.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/monitor.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/monitor.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/platform.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/platform.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/platform.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/platform.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/vulkan.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/vulkan.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/window.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/window.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/window.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/window.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/egl_context.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/egl_context.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/osmesa_context.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/osmesa_context.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_init.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/null_init.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/null_init.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/null_init.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_monitor.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/null_monitor.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/null_monitor.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_window.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/null_window.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/null_window.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/null_window.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/null_joystick.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/null_joystick.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/null_joystick.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_module.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/posix_module.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/posix_module.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/posix_time.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/posix_time.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/posix_thread.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/posix_thread.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/x11_init.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/x11_init.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/x11_monitor.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/x11_monitor.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/x11_window.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/x11_window.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/xkb_unicode.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/xkb_unicode.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/glx_context.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/glx_context.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/wl_init.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/wl_init.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/wl_init.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/wl_monitor.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/wl_monitor.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/wl_monitor.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/wl_window.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/wl_window.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/wl_window.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/linux_joystick.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/linux_joystick.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src -I/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/src -O3 -DNDEBUG -std=c99 -fPIC -Wall -o CMakeFiles/glfw.dir/posix_poll.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/posix_poll.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/posix_poll.c",
+  "output": "neko/vendor/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glad",
+  "command": "/usr/bin/cc  -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include -O3 -DNDEBUG -fPIC -o CMakeFiles/glad.dir/src/glad.c.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/src/glad.c",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/src/glad.c",
+  "output": "neko/vendor/glad/CMakeFiles/glad.dir/src/glad.c.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/imgui",
+  "command": "/usr/bin/c++  -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/imgui.dir/imgui.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui/imgui.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui/imgui.cpp",
+  "output": "neko/vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/imgui",
+  "command": "/usr/bin/c++  -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui/imgui_draw.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui/imgui_draw.cpp",
+  "output": "neko/vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/imgui",
+  "command": "/usr/bin/c++  -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui/imgui_widgets.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui/imgui_widgets.cpp",
+  "output": "neko/vendor/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/imgui",
+  "command": "/usr/bin/c++  -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui/imgui_demo.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui/imgui_demo.cpp",
+  "output": "neko/vendor/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/imgui",
+  "command": "/usr/bin/c++  -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -O3 -DNDEBUG -std=gnu++20 -fPIC -o CMakeFiles/imgui.dir/imgui_tables.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui/imgui_tables.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui/imgui_tables.cpp",
+  "output": "neko/vendor/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glm/glm",
+  "command": "/usr/bin/c++  -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm -O3 -DNDEBUG -std=c++20 -o CMakeFiles/glm.dir/detail/glm.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm/glm/detail/glm.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm/glm/detail/glm.cpp",
+  "output": "neko/vendor/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/app",
+  "command": "/usr/bin/c++  -I/home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src -I/home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/vendor/glm/glm -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/src -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm/glm -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/app.dir/s_app.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/app/s_app.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/app/s_app.cpp",
+  "output": "app/CMakeFiles/app.dir/s_app.cpp.o"
+}
+]

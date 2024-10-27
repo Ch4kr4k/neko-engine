@@ -4,7 +4,9 @@
 #include "GLFW/glfw3.h"
 #include "glad/glad.h"
 #include "log.h"
-
+#include "input.h"
+#include <iostream>
+#include <utility>
 namespace NEKO
 {
 
@@ -39,7 +41,7 @@ namespace NEKO
         EventDispatcher dispatcher(e);
         dispatcher.Dispatch<WindowCloseEvent>(BIND_EVENT_FN(OnWindowClose));
 
-        NEKO_CORE_TRACE(e.ToString());
+        //NEKO_CORE_TRACE(e.ToString());
 
         for (auto it = m_LayerStack.end(); it != m_LayerStack.begin();)
         {
