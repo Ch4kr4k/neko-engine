@@ -2,6 +2,7 @@
 #include "neko/Events/Event.h"
 #include "neko/keycodes.h"
 #include "neko/log.h"
+#include "imgui.h"
 
 class ex_layer : public NEKO::Layer {
     public:
@@ -16,9 +17,11 @@ class ex_layer : public NEKO::Layer {
         if(NEKO::Input::IsKeyPressed(NEKO_KEY_TAB)) NEKO_TRACE("Tab Key Is Pressed");
     }
 
-    void OnEvent(NEKO::Event &event) override
+    virtual void OnImGuiRender() override
     {
-
+        ImGui::Begin("Test");
+        ImGui::Text("Tiyangsen Lemtur");
+        ImGui::End();
     }
 };
 

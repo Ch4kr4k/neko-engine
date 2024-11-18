@@ -221,9 +221,7 @@ neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.o: \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/Events/mouseE.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/Events/keyE.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/app.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/window.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/layerstack.h \
- /usr/include/X11/X.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Buffer.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/log.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/spdlog.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/common.h \
@@ -337,4 +335,9 @@ neko/CMakeFiles/neko.dir/src/neko/imgui/imgui_layer.cpp.o: \
  /usr/include/c++/14.2.1/fstream \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
- /usr/include/c++/14.2.1/bits/fstream.tcc
+ /usr/include/c++/14.2.1/bits/fstream.tcc \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/VertexArray.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/window.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/layerstack.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/shader.h \
+ /usr/include/X11/X.h

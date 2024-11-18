@@ -9,8 +9,6 @@
 #include "neko/Events/keyE.h"
 #include <X11/Xlib.h>
 
-#include "glad/glad.h"
-//#include "GLFW/glfw3.h"
 
 namespace NEKO
 {
@@ -19,7 +17,7 @@ namespace NEKO
 
     static void GLFWerrorcallback(int error, const char* description)
     {
-        NEKO_CORE_ERR("GLFW error");
+        NEKO_CORE_ERR("GLFW error:-> {0} : {1}", error, description);
     }
     // Factory method to create a new Window object. In this case, it creates a Windows-specific window.
     // It dynamically allocates memory for a WindowsWindow object and returns a pointer to it.
@@ -70,12 +68,10 @@ namespace NEKO
             nullptr    // No shared window context
         );
 
-        // Make the created window's OpenGL context current
-        glfwMakeContextCurrent(m_Window);
+        if (!m_Window) NEKO_CORE_ERR("NULL m_WINDOW");
 
-        // glad stuffs
-        int status = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
-        if (!status) NEKO_CORE_ERR("Failed To Load GLAD");
+        m_Context = new OpenGLContext(m_Window);
+        m_Context->Init();
 
         // Associate the m_Data structure with the GLFW window for future reference
         glfwSetWindowUserPointer(m_Window, &m_Data);
@@ -192,7 +188,7 @@ namespace NEKO
     void WindowsWindow::OnUpdate()
     {
         glfwPollEvents();   // Process all pending window events (input, resize, etc.)
-        glfwSwapBuffers(m_Window); // Swap the front and back buffers to display the rendered image
+        m_Context->SwapBuffers();
     }
 
     // Enables or disables vertical synchronization (VSync), which synchronizes the frame rate

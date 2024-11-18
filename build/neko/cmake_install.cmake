@@ -43,30 +43,15 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/chakrak/ws/proj/src/cpp/game_engine/neko/../build/Out/app/lib/libneko.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/chakrak/ws/proj/src/cpp/game_engine/neko/../build/Out/app/lib/libneko.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/chakrak/ws/proj/src/cpp/game_engine/neko/../build/Out/app/lib/libneko.so"
-         RPATH "")
-  endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/chakrak/ws/proj/src/cpp/game_engine/neko/../build/Out/app/lib/libneko.so")
+   "/home/chakrak/ws/proj/src/cpp/game_engine/neko/../build/Out/app/lib/libneko.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/chakrak/ws/proj/src/cpp/game_engine/neko/../build/Out/app/lib" TYPE SHARED_LIBRARY FILES "/home/chakrak/ws/proj/src/cpp/game_engine/build/Out/app/lib/libneko.so")
-  if(EXISTS "$ENV{DESTDIR}/home/chakrak/ws/proj/src/cpp/game_engine/neko/../build/Out/app/lib/libneko.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/chakrak/ws/proj/src/cpp/game_engine/neko/../build/Out/app/lib/libneko.so")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/chakrak/ws/proj/src/cpp/game_engine/neko/../build/Out/app/lib/libneko.so")
-    endif()
-  endif()
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "/home/chakrak/ws/proj/src/cpp/game_engine/neko/../build/Out/app/lib" TYPE STATIC_LIBRARY FILES "/home/chakrak/ws/proj/src/cpp/game_engine/build/Out/app/lib/libneko.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -81,3 +66,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()

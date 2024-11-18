@@ -2,10 +2,16 @@
 
 #include "core.h"
 #include "Events/Event.h"
+#include "neko/renderer/Buffer.h"
+#include "neko/renderer/VertexArray.h"
 #include "window.h"
 #include "neko/Events/appE.h"
 #include "layerstack.h"
 #include "neko/imgui/imgui_layer.h"
+#include "renderer/shader.h"
+#include "renderer/Buffer.h"
+#include "renderer/VertexArray.h"
+#include <memory>
 
 namespace NEKO
 {
@@ -27,6 +33,12 @@ namespace NEKO
             imgui_layer *m_imgui_layer;
             bool m_Running = true;
             LayerStack m_LayerStack;
+        private:
+            std::shared_ptr<Shadder> m_Shadder;
+            std::shared_ptr<Shadder> m_BlueShadder;
+
+            std::shared_ptr<VertexArray> m_VertexArray;
+            std::shared_ptr<VertexArray> m_SquareVA;
         private:
             static Application *s_Instance;
     };

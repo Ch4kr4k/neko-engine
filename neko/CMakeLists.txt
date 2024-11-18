@@ -7,7 +7,8 @@ project(Neko)
 file(GLOB_RECURSE NEKO_SOURCES src/neko/*.cpp)
 
 # Create the shared library
-add_library(neko SHARED ${NEKO_SOURCES})
+# add_library(neko SHARED ${NEKO_SOURCES})
+add_library(neko STATIC ${NEKO_SOURCES})
 
 # Set output directory for the shared library
 set_target_properties(neko PROPERTIES
@@ -15,7 +16,6 @@ set_target_properties(neko PROPERTIES
     LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/../build/Out/app/lib
     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/../build/Out/app/lib
 )
-
 
 # Define the include directories
 target_include_directories(neko PUBLIC

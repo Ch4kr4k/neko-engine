@@ -28,6 +28,7 @@ install(TARGETS app
 target_include_directories(app PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/../neko/src
     ${CMAKE_CURRENT_SOURCE_DIR}/../neko/vendor/glm/glm
+    ${CMAKE_CURRENT_SOURCE_DIR}/../neko/vendor/imgui
 )
 
 

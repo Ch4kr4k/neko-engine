@@ -2,6 +2,7 @@
 
 #define GLFW_INCLUDE_NONE
 #include "window.h"
+#include "neko/platform/opengl/OpenGlContext.h"
 #include <GLFW/glfw3.h>
 
 namespace NEKO
@@ -50,6 +51,7 @@ namespace NEKO
     private:
         // Pointer to the GLFW window object.
         GLFWwindow* m_Window;
+        GraphicsContext *m_Context;
 
         // Structure to hold window-related data such as title, size, VSync state, and the
         // event callback function for processing window events.

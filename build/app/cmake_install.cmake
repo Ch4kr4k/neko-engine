@@ -62,7 +62,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/chakrak/ws/proj/src/cpp/game_engine/app/../build/Out/app/app")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/home/chakrak/ws/proj/src/cpp/game_engine/app/../build/Out/app/app"
-         OLD_RPATH "./lib:/home/chakrak/ws/proj/src/cpp/game_engine/build/Out/app/lib:"
+         OLD_RPATH "./lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/chakrak/ws/proj/src/cpp/game_engine/app/../build/Out/app/app")
@@ -74,3 +74,9 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   include("/home/chakrak/ws/proj/src/cpp/game_engine/build/app/CMakeFiles/app.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "/home/chakrak/ws/proj/src/cpp/game_engine/build/app/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()
