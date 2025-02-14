@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ include neko/vendor/glfw/CMakeFiles/uninstall.dir/compiler_depend.make
 include neko/vendor/glfw/CMakeFiles/uninstall.dir/progress.make
 
 neko/vendor/glfw/CMakeFiles/uninstall:
-	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw && /usr/bin/cmake -P /home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/cmake_uninstall.cmake
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw && /home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake -P /home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/cmake_uninstall.cmake
 
 neko/vendor/glfw/CMakeFiles/uninstall.dir/codegen:
 .PHONY : neko/vendor/glfw/CMakeFiles/uninstall.dir/codegen

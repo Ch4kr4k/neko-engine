@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -102,8 +102,9 @@ Out/app/app: /usr/lib/librt.a
 Out/app/app: /usr/lib/libm.so
 Out/app/app: /usr/lib/libGLX.so
 Out/app/app: /usr/lib/libOpenGL.so
-Out/app/app: lib/libglad.a
+Out/app/app: lib/libstb_image.a
 Out/app/app: /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/build/Out/app/lib/libimgui.a
+Out/app/app: neko/vendor/stb_image/libstb_image.a
 Out/app/app: app/CMakeFiles/app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../Out/app/app"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/app && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)

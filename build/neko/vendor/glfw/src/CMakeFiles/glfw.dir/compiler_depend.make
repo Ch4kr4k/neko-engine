@@ -76,6 +76,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/context.c.o: /home/chakrak/ws/proj/src/
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix1_lim.h \
@@ -270,6 +271,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: /home/chakrak/ws/proj/
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -464,6 +466,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: /home/chakrak/ws/proj/
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -658,6 +661,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/init.c.o: /home/chakrak/ws/proj/src/cpp
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -853,6 +857,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/input.c.o: /home/chakrak/ws/proj/src/cp
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -1057,6 +1062,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: /home/chakrak/ws/pr
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix1_lim.h \
@@ -1261,6 +1267,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: /home/chakrak/ws/proj/src/
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix1_lim.h \
@@ -1460,6 +1467,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/null_init.c.o: /home/chakrak/ws/proj/sr
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -1652,6 +1660,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o: /home/chakrak/ws/pro
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -1838,6 +1847,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o: /home/chakrak/ws/proj
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -2031,6 +2041,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/null_window.c.o: /home/chakrak/ws/proj/
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -2223,6 +2234,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: /home/chakrak/ws/pr
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -2416,6 +2428,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/platform.c.o: /home/chakrak/ws/proj/src
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -2609,6 +2622,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o: /home/chakrak/ws/proj
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -2800,6 +2814,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o: /home/chakrak/ws/proj/s
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
@@ -2884,6 +2899,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o: /home/chakrak/ws/proj/s
   /usr/include/linux/ioctl.h \
   /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
+  /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
   /usr/include/linux/types.h \
   /usr/include/math.h \
@@ -2992,6 +3008,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: /home/chakrak/ws/proj
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -3179,6 +3196,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: /home/chakrak/ws/proj/s
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -3366,6 +3384,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: /home/chakrak/ws/proj/src/c
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -3560,6 +3579,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/window.c.o: /home/chakrak/ws/proj/src/c
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -3778,6 +3798,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o: /home/chakrak/ws/proj/src/
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/mman-linux.h \
   /usr/include/bits/mman-map-flags-generic.h \
@@ -3993,6 +4014,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o: /home/chakrak/ws/proj/s
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -4207,6 +4229,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o: /home/chakrak/ws/proj/sr
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls-narrow.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/mman-linux.h \
@@ -4306,6 +4329,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o: /home/chakrak/ws/proj/sr
   /usr/include/linux/ioctl.h \
   /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
+  /usr/include/linux/sched/types.h \
   /usr/include/linux/stddef.h \
   /usr/include/linux/types.h \
   /usr/include/math.h \
@@ -4430,6 +4454,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: /home/chakrak/ws/proj/src
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix1_lim.h \
@@ -4635,6 +4660,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: /home/chakrak/ws/proj/
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix1_lim.h \
@@ -4841,6 +4867,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: /home/chakrak/ws/proj/s
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix1_lim.h \
@@ -5040,6 +5067,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: /home/chakrak/ws/proj/
   /usr/include/bits/long-double.h \
   /usr/include/bits/math-vector.h \
   /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/poll.h \
   /usr/include/bits/posix_opt.h \
@@ -5181,6 +5209,10 @@ neko/vendor/glfw/src/xdg-activation-v1-client-protocol.h:
 
 neko/vendor/glfw/src/xdg-activation-v1-client-protocol-code.h:
 
+neko/vendor/glfw/src/wayland-client-protocol.h:
+
+neko/vendor/glfw/src/wayland-client-protocol-code.h:
+
 /usr/include/bits/types/sigevent_t.h:
 
 /usr/include/bits/types/locale_t.h:
@@ -5249,7 +5281,9 @@ neko/vendor/glfw/src/xdg-activation-v1-client-protocol-code.h:
 
 /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/init.c:
 
-neko/vendor/glfw/src/wayland-client-protocol.h:
+/usr/include/bits/mathcalls-macros.h:
+
+/usr/include/asm-generic/int-ll64.h:
 
 /usr/include/bits/struct_rwlock.h:
 
@@ -5387,8 +5421,6 @@ neko/vendor/glfw/src/xdg-shell-client-protocol.h:
 
 /usr/include/bits/iscanonical.h:
 
-/usr/include/bits/types/sigset_t.h:
-
 /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/internal.h:
 
 /usr/include/bits/byteswap.h:
@@ -5412,6 +5444,8 @@ neko/vendor/glfw/src/xdg-shell-client-protocol.h:
 /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/posix_thread.h:
 
 /usr/include/X11/keysymdef.h:
+
+/usr/include/bits/types/sigset_t.h:
 
 /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/wl_platform.h:
 
@@ -5448,8 +5482,6 @@ neko/vendor/glfw/src/pointer-constraints-unstable-v1-client-protocol.h:
 /usr/include/X11/extensions/Xrender.h:
 
 /usr/include/bits/endian.h:
-
-/usr/include/asm-generic/int-ll64.h:
 
 /usr/include/X11/extensions/shape.h:
 
@@ -5695,6 +5727,12 @@ neko/vendor/glfw/src/fractional-scale-v1-client-protocol.h:
 
 /usr/include/bits/types/error_t.h:
 
+/usr/include/linux/sched/types.h:
+
+/usr/include/sys/types.h:
+
+neko/vendor/glfw/src/idle-inhibit-unstable-v1-client-protocol-code.h:
+
 /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/posix_time.c:
 
 /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/vulkan.c:
@@ -5704,10 +5742,6 @@ neko/vendor/glfw/src/fractional-scale-v1-client-protocol.h:
 /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src/wl_init.c:
 
 neko/vendor/glfw/src/fractional-scale-v1-client-protocol-code.h:
-
-/usr/include/sys/types.h:
-
-neko/vendor/glfw/src/idle-inhibit-unstable-v1-client-protocol-code.h:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
@@ -5720,5 +5754,3 @@ neko/vendor/glfw/src/relative-pointer-unstable-v1-client-protocol.h:
 neko/vendor/glfw/src/viewporter-client-protocol-code.h:
 
 neko/vendor/glfw/src/viewporter-client-protocol.h:
-
-neko/vendor/glfw/src/wayland-client-protocol-code.h:

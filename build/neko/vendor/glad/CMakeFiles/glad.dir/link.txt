@@ -1,2 +1,2 @@
-/usr/bin/ar qc ../../../lib/libglad.a CMakeFiles/glad.dir/src/glad.c.o
-/usr/bin/ranlib ../../../lib/libglad.a
+/usr/bin/ar qc ../../../lib/libstb_image.a CMakeFiles/glad.dir/src/glad.c.o
+/usr/bin/ranlib ../../../lib/libstb_image.a

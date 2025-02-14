@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -170,10 +170,24 @@ neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLRendererAPI.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLRendererAPI.cpp.s"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGLRendererAPI.cpp -o CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLRendererAPI.cpp.s
 
+neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.o: neko/CMakeFiles/neko.dir/flags.make
+neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGLTexture.cpp
+neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.o"
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.o -MF CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.o.d -o CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGLTexture.cpp
+
+neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.i"
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGLTexture.cpp > CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.i
+
+neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.s"
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGLTexture.cpp -o CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.s
+
 neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLVertexArray.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLVertexArray.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGLVertexArray.cpp
 neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLVertexArray.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLVertexArray.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLVertexArray.cpp.o"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLVertexArray.cpp.o -MF CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLVertexArray.cpp.o.d -o CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLVertexArray.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGLVertexArray.cpp
 
 neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLVertexArray.cpp.i: cmake_force
@@ -187,7 +201,7 @@ neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLVertexArray.cpp.s: cmake
 neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlBuffer.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlBuffer.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGlBuffer.cpp
 neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlBuffer.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlBuffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlBuffer.cpp.o"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlBuffer.cpp.o -MF CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlBuffer.cpp.o.d -o CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlBuffer.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGlBuffer.cpp
 
 neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlBuffer.cpp.i: cmake_force
@@ -201,7 +215,7 @@ neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlBuffer.cpp.s: cmake_forc
 neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlContext.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlContext.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGlContext.cpp
 neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlContext.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlContext.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlContext.cpp.o"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlContext.cpp.o -MF CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlContext.cpp.o.d -o CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlContext.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGlContext.cpp
 
 neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlContext.cpp.i: cmake_force
@@ -212,10 +226,24 @@ neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlContext.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlContext.cpp.s"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGlContext.cpp -o CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlContext.cpp.s
 
+neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.o: neko/CMakeFiles/neko.dir/flags.make
+neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGlShadder.cpp
+neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.o"
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.o -MF CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.o.d -o CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGlShadder.cpp
+
+neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.i"
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGlShadder.cpp > CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.i
+
+neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.s"
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGlShadder.cpp -o CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.s
+
 neko/CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/windows/wininput.cpp
 neko/CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o -MF CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o.d -o CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/windows/wininput.cpp
 
 neko/CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.i: cmake_force
@@ -229,7 +257,7 @@ neko/CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.s: cmake_force
 neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Buffer.cpp
 neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o -MF CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o.d -o CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Buffer.cpp
 
 neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.i: cmake_force
@@ -240,10 +268,24 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.s"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Buffer.cpp -o CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.s
 
+neko/CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.o: neko/CMakeFiles/neko.dir/flags.make
+neko/CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/OrthographicCamera.cpp
+neko/CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.o"
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.o -MF CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.o.d -o CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/OrthographicCamera.cpp
+
+neko/CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.i"
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/OrthographicCamera.cpp > CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.i
+
+neko/CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.s"
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/OrthographicCamera.cpp -o CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.s
+
 neko/CMakeFiles/neko.dir/src/neko/renderer/RenderCommand.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/renderer/RenderCommand.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/RenderCommand.cpp
 neko/CMakeFiles/neko.dir/src/neko/renderer/RenderCommand.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/renderer/RenderCommand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/renderer/RenderCommand.cpp.o"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/renderer/RenderCommand.cpp.o -MF CMakeFiles/neko.dir/src/neko/renderer/RenderCommand.cpp.o.d -o CMakeFiles/neko.dir/src/neko/renderer/RenderCommand.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/RenderCommand.cpp
 
 neko/CMakeFiles/neko.dir/src/neko/renderer/RenderCommand.cpp.i: cmake_force
@@ -257,7 +299,7 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/RenderCommand.cpp.s: cmake_force
 neko/CMakeFiles/neko.dir/src/neko/renderer/RendererAPI.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/renderer/RendererAPI.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/RendererAPI.cpp
 neko/CMakeFiles/neko.dir/src/neko/renderer/RendererAPI.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/renderer/RendererAPI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/renderer/RendererAPI.cpp.o"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/renderer/RendererAPI.cpp.o -MF CMakeFiles/neko.dir/src/neko/renderer/RendererAPI.cpp.o.d -o CMakeFiles/neko.dir/src/neko/renderer/RendererAPI.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/RendererAPI.cpp
 
 neko/CMakeFiles/neko.dir/src/neko/renderer/RendererAPI.cpp.i: cmake_force
@@ -268,10 +310,24 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/RendererAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neko.dir/src/neko/renderer/RendererAPI.cpp.s"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/RendererAPI.cpp -o CMakeFiles/neko.dir/src/neko/renderer/RendererAPI.cpp.s
 
+neko/CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.o: neko/CMakeFiles/neko.dir/flags.make
+neko/CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Texture.cpp
+neko/CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.o"
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.o -MF CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.o.d -o CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Texture.cpp
+
+neko/CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.i"
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Texture.cpp > CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.i
+
+neko/CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.s"
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Texture.cpp -o CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.s
+
 neko/CMakeFiles/neko.dir/src/neko/renderer/VertexArray.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/renderer/VertexArray.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/VertexArray.cpp
 neko/CMakeFiles/neko.dir/src/neko/renderer/VertexArray.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/renderer/VertexArray.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/renderer/VertexArray.cpp.o"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/renderer/VertexArray.cpp.o -MF CMakeFiles/neko.dir/src/neko/renderer/VertexArray.cpp.o.d -o CMakeFiles/neko.dir/src/neko/renderer/VertexArray.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/VertexArray.cpp
 
 neko/CMakeFiles/neko.dir/src/neko/renderer/VertexArray.cpp.i: cmake_force
@@ -285,7 +341,7 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/VertexArray.cpp.s: cmake_force
 neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer.cpp
 neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o -MF CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o.d -o CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer.cpp
 
 neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.i: cmake_force
@@ -299,7 +355,7 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.s: cmake_force
 neko/CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/shader.cpp
 neko/CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.o"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.o -MF CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.o.d -o CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/shader.cpp
 
 neko/CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.i: cmake_force
@@ -313,7 +369,7 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.s: cmake_force
 neko/CMakeFiles/neko.dir/src/neko/winwindows.cpp.o: neko/CMakeFiles/neko.dir/flags.make
 neko/CMakeFiles/neko.dir/src/neko/winwindows.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/winwindows.cpp
 neko/CMakeFiles/neko.dir/src/neko/winwindows.cpp.o: neko/CMakeFiles/neko.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/winwindows.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object neko/CMakeFiles/neko.dir/src/neko/winwindows.cpp.o"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT neko/CMakeFiles/neko.dir/src/neko/winwindows.cpp.o -MF CMakeFiles/neko.dir/src/neko/winwindows.cpp.o.d -o CMakeFiles/neko.dir/src/neko/winwindows.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/winwindows.cpp
 
 neko/CMakeFiles/neko.dir/src/neko/winwindows.cpp.i: cmake_force
@@ -333,13 +389,17 @@ neko_OBJECTS = \
 "CMakeFiles/neko.dir/src/neko/layerstack.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/log.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLRendererAPI.cpp.o" \
+"CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLVertexArray.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlBuffer.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlContext.cpp.o" \
+"CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o" \
+"CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/renderer/RenderCommand.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/renderer/RendererAPI.cpp.o" \
+"CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/renderer/VertexArray.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o" \
 "CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.o" \
@@ -355,20 +415,24 @@ Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/layer.cpp.o
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/layerstack.cpp.o
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/log.cpp.o
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLRendererAPI.cpp.o
+Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.o
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLVertexArray.cpp.o
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlBuffer.cpp.o
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlContext.cpp.o
+Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.o
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/platform/windows/wininput.cpp.o
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o
+Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.o
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/renderer/RenderCommand.cpp.o
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/renderer/RendererAPI.cpp.o
+Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.o
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/renderer/VertexArray.cpp.o
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.o
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/src/neko/winwindows.cpp.o
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/build.make
 Out/app/lib/libneko.a: neko/CMakeFiles/neko.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX static library ../Out/app/lib/libneko.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX static library ../Out/app/lib/libneko.a"
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && $(CMAKE_COMMAND) -P CMakeFiles/neko.dir/cmake_clean_target.cmake
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build/neko && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/neko.dir/link.txt --verbose=$(VERBOSE)
 

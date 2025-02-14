@@ -3,6 +3,7 @@
 #include "core.h"
 #include "Events/Event.h"
 #include "neko/renderer/Buffer.h"
+#include "neko/renderer/OrthographicCamera.h"
 #include "neko/renderer/VertexArray.h"
 #include "window.h"
 #include "neko/Events/appE.h"
@@ -12,6 +13,7 @@
 #include "renderer/Buffer.h"
 #include "renderer/VertexArray.h"
 #include <memory>
+#include "neko/renderer/OrthographicCamera.h"
 
 namespace NEKO
 {
@@ -29,16 +31,13 @@ namespace NEKO
            inline Window &GetWindow() { return *m_Window; }
         private:
             bool OnWindowClose(WindowCloseEvent &e);
+        private:
             std::unique_ptr<Window> m_Window;
             imgui_layer *m_imgui_layer;
             bool m_Running = true;
             LayerStack m_LayerStack;
-        private:
-            std::shared_ptr<Shadder> m_Shadder;
-            std::shared_ptr<Shadder> m_BlueShadder;
 
-            std::shared_ptr<VertexArray> m_VertexArray;
-            std::shared_ptr<VertexArray> m_SquareVA;
+            float m_LastFrameTime = 0.0f;
         private:
             static Application *s_Instance;
     };

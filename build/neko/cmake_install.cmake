@@ -63,6 +63,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glfw/cmake_install.cmake")
   include("/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/glad/cmake_install.cmake")
   include("/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/imgui/cmake_install.cmake")
+  include("/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/stb_image/cmake_install.cmake")
 
 endif()
 

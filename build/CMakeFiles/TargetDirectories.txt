@@ -47,6 +47,13 @@
 /home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/imgui/CMakeFiles/install.dir
 /home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/imgui/CMakeFiles/install/local.dir
 /home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/imgui/CMakeFiles/install/strip.dir
+/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/stb_image/CMakeFiles/stb_image.dir
+/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/stb_image/CMakeFiles/edit_cache.dir
+/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/stb_image/CMakeFiles/rebuild_cache.dir
+/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/stb_image/CMakeFiles/list_install_components.dir
+/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/stb_image/CMakeFiles/install.dir
+/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/stb_image/CMakeFiles/install/local.dir
+/home/chakrak/ws/proj/src/cpp/game_engine/build/neko/vendor/stb_image/CMakeFiles/install/strip.dir
 /home/chakrak/ws/proj/src/cpp/game_engine/build/app/CMakeFiles/app.dir
 /home/chakrak/ws/proj/src/cpp/game_engine/build/app/CMakeFiles/edit_cache.dir
 /home/chakrak/ws/proj/src/cpp/game_engine/build/app/CMakeFiles/rebuild_cache.dir

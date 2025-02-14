@@ -24,6 +24,7 @@ target_include_directories(neko PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/vendor/spdlog/include
     ${CMAKE_CURRENT_SOURCE_DIR}/vendor/include
     ${CMAKE_CURRENT_SOURCE_DIR}/vendor/glm/glm
+    ${CMAKE_CURRENT_SOURCE_DIR}/vendor/stb_image
 )
 
 if(POLICY CMP0072)
@@ -41,6 +42,7 @@ target_link_libraries(neko
   PRIVATE OpenGL::GL
   PRIVATE glad
   PRIVATE imgui
+  PRIVATE stb_image
 )
 
 
@@ -53,3 +55,4 @@ install(TARGETS neko
 add_subdirectory(vendor/glfw)
 add_subdirectory(vendor/glad)
 add_subdirectory(vendor/imgui)
+add_subdirectory(vendor/stb_image)

@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ include neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/progress.make
 
 neko/vendor/glfw/src/CMakeFiles/update_mappings:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src && /usr/bin/cmake -P /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/src && /home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake -P /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/codegen:
 .PHONY : neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/codegen

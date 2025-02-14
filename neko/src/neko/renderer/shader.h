@@ -2,18 +2,19 @@
 #define GLFW_INCLUDE_NONE
 #include "NPCH.h"
 #include <cstddef>
+#include <glm/glm.hpp>
 #include <cstdint>
 
 namespace NEKO
 {
     class Shadder {
         public:
-            Shadder(const std::string &vertex_src, const std::string& fragment_src);
-            ~Shadder();
+            virtual ~Shadder() = default;
 
-            void Bind() const;
-            void UnBind() const;
+            virtual void Bind() const = 0;
+            virtual void UnBind() const = 0;
 
+            static Shadder *Create(const std::string &vertex_src, const std::string &fragment_src);
         private:
             uint32_t m_RendererID;
     };

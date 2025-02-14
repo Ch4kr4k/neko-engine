@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,8 +67,8 @@ CMAKE_BINARY_DIR = /home/chakrak/ws/proj/src/cpp/game_engine/build
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
+	/home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -97,37 +97,37 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/chakrak/venv/lib/python3.13/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
@@ -343,6 +343,30 @@ src/neko/platform/opengl/OpenGLRendererAPI.cpp.s:
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLRendererAPI.cpp.s
 .PHONY : src/neko/platform/opengl/OpenGLRendererAPI.cpp.s
 
+src/neko/platform/opengl/OpenGLTexture.o: src/neko/platform/opengl/OpenGLTexture.cpp.o
+.PHONY : src/neko/platform/opengl/OpenGLTexture.o
+
+# target to build an object file
+src/neko/platform/opengl/OpenGLTexture.cpp.o:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.o
+.PHONY : src/neko/platform/opengl/OpenGLTexture.cpp.o
+
+src/neko/platform/opengl/OpenGLTexture.i: src/neko/platform/opengl/OpenGLTexture.cpp.i
+.PHONY : src/neko/platform/opengl/OpenGLTexture.i
+
+# target to preprocess a source file
+src/neko/platform/opengl/OpenGLTexture.cpp.i:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.i
+.PHONY : src/neko/platform/opengl/OpenGLTexture.cpp.i
+
+src/neko/platform/opengl/OpenGLTexture.s: src/neko/platform/opengl/OpenGLTexture.cpp.s
+.PHONY : src/neko/platform/opengl/OpenGLTexture.s
+
+# target to generate assembly for a file
+src/neko/platform/opengl/OpenGLTexture.cpp.s:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGLTexture.cpp.s
+.PHONY : src/neko/platform/opengl/OpenGLTexture.cpp.s
+
 src/neko/platform/opengl/OpenGLVertexArray.o: src/neko/platform/opengl/OpenGLVertexArray.cpp.o
 .PHONY : src/neko/platform/opengl/OpenGLVertexArray.o
 
@@ -415,6 +439,30 @@ src/neko/platform/opengl/OpenGlContext.cpp.s:
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlContext.cpp.s
 .PHONY : src/neko/platform/opengl/OpenGlContext.cpp.s
 
+src/neko/platform/opengl/OpenGlShadder.o: src/neko/platform/opengl/OpenGlShadder.cpp.o
+.PHONY : src/neko/platform/opengl/OpenGlShadder.o
+
+# target to build an object file
+src/neko/platform/opengl/OpenGlShadder.cpp.o:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.o
+.PHONY : src/neko/platform/opengl/OpenGlShadder.cpp.o
+
+src/neko/platform/opengl/OpenGlShadder.i: src/neko/platform/opengl/OpenGlShadder.cpp.i
+.PHONY : src/neko/platform/opengl/OpenGlShadder.i
+
+# target to preprocess a source file
+src/neko/platform/opengl/OpenGlShadder.cpp.i:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.i
+.PHONY : src/neko/platform/opengl/OpenGlShadder.cpp.i
+
+src/neko/platform/opengl/OpenGlShadder.s: src/neko/platform/opengl/OpenGlShadder.cpp.s
+.PHONY : src/neko/platform/opengl/OpenGlShadder.s
+
+# target to generate assembly for a file
+src/neko/platform/opengl/OpenGlShadder.cpp.s:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.s
+.PHONY : src/neko/platform/opengl/OpenGlShadder.cpp.s
+
 src/neko/platform/windows/wininput.o: src/neko/platform/windows/wininput.cpp.o
 .PHONY : src/neko/platform/windows/wininput.o
 
@@ -463,6 +511,30 @@ src/neko/renderer/Buffer.cpp.s:
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.s
 .PHONY : src/neko/renderer/Buffer.cpp.s
 
+src/neko/renderer/OrthographicCamera.o: src/neko/renderer/OrthographicCamera.cpp.o
+.PHONY : src/neko/renderer/OrthographicCamera.o
+
+# target to build an object file
+src/neko/renderer/OrthographicCamera.cpp.o:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.o
+.PHONY : src/neko/renderer/OrthographicCamera.cpp.o
+
+src/neko/renderer/OrthographicCamera.i: src/neko/renderer/OrthographicCamera.cpp.i
+.PHONY : src/neko/renderer/OrthographicCamera.i
+
+# target to preprocess a source file
+src/neko/renderer/OrthographicCamera.cpp.i:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.i
+.PHONY : src/neko/renderer/OrthographicCamera.cpp.i
+
+src/neko/renderer/OrthographicCamera.s: src/neko/renderer/OrthographicCamera.cpp.s
+.PHONY : src/neko/renderer/OrthographicCamera.s
+
+# target to generate assembly for a file
+src/neko/renderer/OrthographicCamera.cpp.s:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/renderer/OrthographicCamera.cpp.s
+.PHONY : src/neko/renderer/OrthographicCamera.cpp.s
+
 src/neko/renderer/RenderCommand.o: src/neko/renderer/RenderCommand.cpp.o
 .PHONY : src/neko/renderer/RenderCommand.o
 
@@ -510,6 +582,30 @@ src/neko/renderer/RendererAPI.s: src/neko/renderer/RendererAPI.cpp.s
 src/neko/renderer/RendererAPI.cpp.s:
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/renderer/RendererAPI.cpp.s
 .PHONY : src/neko/renderer/RendererAPI.cpp.s
+
+src/neko/renderer/Texture.o: src/neko/renderer/Texture.cpp.o
+.PHONY : src/neko/renderer/Texture.o
+
+# target to build an object file
+src/neko/renderer/Texture.cpp.o:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.o
+.PHONY : src/neko/renderer/Texture.cpp.o
+
+src/neko/renderer/Texture.i: src/neko/renderer/Texture.cpp.i
+.PHONY : src/neko/renderer/Texture.i
+
+# target to preprocess a source file
+src/neko/renderer/Texture.cpp.i:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.i
+.PHONY : src/neko/renderer/Texture.cpp.i
+
+src/neko/renderer/Texture.s: src/neko/renderer/Texture.cpp.s
+.PHONY : src/neko/renderer/Texture.s
+
+# target to generate assembly for a file
+src/neko/renderer/Texture.cpp.s:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.s
+.PHONY : src/neko/renderer/Texture.cpp.s
 
 src/neko/renderer/VertexArray.o: src/neko/renderer/VertexArray.cpp.o
 .PHONY : src/neko/renderer/VertexArray.o
@@ -641,6 +737,9 @@ help:
 	@echo "... src/neko/platform/opengl/OpenGLRendererAPI.o"
 	@echo "... src/neko/platform/opengl/OpenGLRendererAPI.i"
 	@echo "... src/neko/platform/opengl/OpenGLRendererAPI.s"
+	@echo "... src/neko/platform/opengl/OpenGLTexture.o"
+	@echo "... src/neko/platform/opengl/OpenGLTexture.i"
+	@echo "... src/neko/platform/opengl/OpenGLTexture.s"
 	@echo "... src/neko/platform/opengl/OpenGLVertexArray.o"
 	@echo "... src/neko/platform/opengl/OpenGLVertexArray.i"
 	@echo "... src/neko/platform/opengl/OpenGLVertexArray.s"
@@ -650,18 +749,27 @@ help:
 	@echo "... src/neko/platform/opengl/OpenGlContext.o"
 	@echo "... src/neko/platform/opengl/OpenGlContext.i"
 	@echo "... src/neko/platform/opengl/OpenGlContext.s"
+	@echo "... src/neko/platform/opengl/OpenGlShadder.o"
+	@echo "... src/neko/platform/opengl/OpenGlShadder.i"
+	@echo "... src/neko/platform/opengl/OpenGlShadder.s"
 	@echo "... src/neko/platform/windows/wininput.o"
 	@echo "... src/neko/platform/windows/wininput.i"
 	@echo "... src/neko/platform/windows/wininput.s"
 	@echo "... src/neko/renderer/Buffer.o"
 	@echo "... src/neko/renderer/Buffer.i"
 	@echo "... src/neko/renderer/Buffer.s"
+	@echo "... src/neko/renderer/OrthographicCamera.o"
+	@echo "... src/neko/renderer/OrthographicCamera.i"
+	@echo "... src/neko/renderer/OrthographicCamera.s"
 	@echo "... src/neko/renderer/RenderCommand.o"
 	@echo "... src/neko/renderer/RenderCommand.i"
 	@echo "... src/neko/renderer/RenderCommand.s"
 	@echo "... src/neko/renderer/RendererAPI.o"
 	@echo "... src/neko/renderer/RendererAPI.i"
 	@echo "... src/neko/renderer/RendererAPI.s"
+	@echo "... src/neko/renderer/Texture.o"
+	@echo "... src/neko/renderer/Texture.i"
+	@echo "... src/neko/renderer/Texture.s"
 	@echo "... src/neko/renderer/VertexArray.o"
 	@echo "... src/neko/renderer/VertexArray.i"
 	@echo "... src/neko/renderer/VertexArray.s"
