@@ -11,6 +11,7 @@
 #include <glm/fwd.hpp>
 #include "neko/platform/opengl/OpenGlShadder.h"
 #include "neko/renderer/Texture.h"
+#include "neko/renderer/shader.h"
 #include <glm/gtc/type_ptr.hpp>
 #include <memory>
 
@@ -125,38 +126,11 @@ class ex_layer : public NEKO::Layer {
             )";
 
             m_BlueShadder.reset(NEKO::Shadder::Create(flatvertexSrc, flatfragmentSrc));
-            std::string textureShadervertexSrc = R"(
-                #version 430 core
-                layout (location = 0) in vec3 a_Position;
-                layout (location = 1) in vec2 a_TexCoord;
-
-                out vec2 v_TexCoord;
-
-                uniform mat4 u_ViewProjection;
-                uniform mat4 u_Transform;
-                void main()
-                {
-                    v_TexCoord = a_TexCoord;
-                    gl_Position = u_ViewProjection * u_Transform * vec4(a_Position, 1.0);
-                }
-            )";
-
-            std::string textureShaderfragmentSrc = R"(
-                #version 430 core
-                layout(location = 0) out vec4 color;
-
-                in vec2 v_TexCoord;
-
-                uniform sampler2D u_Texture;
-                void main()
-                {
-                    color = texture(u_Texture, v_TexCoord);
-                }
-            )";
 
             // color = (v_TexCoord, 0.0, 1.0);
-            m_TextureShadder.reset(NEKO::Shadder::Create(textureShadervertexSrc, textureShaderfragmentSrc));
+            m_TextureShadder.reset(NEKO::Shadder::Create("assets/shaders/Texture.glsl"));
             m_Texture = (NEKO::Texture2D::Create("assets/textures/Checkerboard.png"));
+            m_Cherno_Logo = (NEKO::Texture2D::Create("assets/textures/ChernoLogo.png"));
             std::dynamic_pointer_cast<NEKO::OpenGLShadder>(m_TextureShadder)->Bind();
             int slot = 0;
             std::dynamic_pointer_cast<NEKO::OpenGLShadder>(m_TextureShadder)->UploadUniformInt("u_Texture", slot);
@@ -203,6 +177,9 @@ class ex_layer : public NEKO::Layer {
 
             m_Texture->Bind();
             NEKO::Renderer::Submit(m_TextureShadder, m_SquareVA, glm::scale(glm::mat4(1.0f), glm::vec3(1.5f)));
+            m_Cherno_Logo->Bind();
+            NEKO::Renderer::Submit(m_TextureShadder, m_SquareVA,
+                glm::translate(glm::mat4(1.0f), glm::vec3(0.25f, -0.25f, 0.0f)) * glm::scale(glm::mat4(1.0f), glm::vec3(1.5f)));
             // Triangle
             // NEKO::Renderer::Submit(m_Shadder, m_VertexArray);
             NEKO::Renderer::EndScene();
@@ -246,7 +223,7 @@ class ex_layer : public NEKO::Layer {
         NEKO::Ref<NEKO::VertexArray> m_VertexArray;
         NEKO::Ref<NEKO::VertexArray> m_SquareVA;
 
-        NEKO::Ref<NEKO::Texture2D> m_Texture;
+        NEKO::Ref<NEKO::Texture2D> m_Texture, m_Cherno_Logo;
 
         NEKO::OrthographicCamera m_Camera;
         glm::vec3 m_CameraPosition;

@@ -14,6 +14,7 @@ namespace NEKO
             virtual void Bind() const = 0;
             virtual void UnBind() const = 0;
 
+            static Shadder *Create(const std::string &filepath);
             static Shadder *Create(const std::string &vertex_src, const std::string &fragment_src);
         private:
             uint32_t m_RendererID;

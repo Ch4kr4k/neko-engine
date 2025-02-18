@@ -436,8 +436,6 @@ neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.o: \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/14.2.1/bits/fstream.tcc \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include/glad/glad.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include/KHR/khrplatform.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Buffer.h \
  /usr/include/glm/gtc/type_ptr.hpp /usr/include/glm/gtc/quaternion.hpp \
  /usr/include/glm/gtc/constants.hpp \
@@ -483,4 +481,6 @@ neko/CMakeFiles/neko.dir/src/neko/platform/opengl/OpenGlShadder.cpp.o: \
  /usr/include/glm/ext/vector_int1_sized.hpp \
  /usr/include/glm/ext/vector_uint1.hpp \
  /usr/include/glm/ext/vector_uint1_sized.hpp \
- /usr/include/glm/gtc/type_ptr.inl
+ /usr/include/glm/gtc/type_ptr.inl \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include/glad/glad.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include/KHR/khrplatform.h

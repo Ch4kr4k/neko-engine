@@ -1,6 +1,7 @@
 #include "NPCH.h"
 #include "neko/platform/opengl/OpenGlShadder.h"
 #include "neko/renderer/OrthographicCamera.h"
+#include "neko/renderer/RenderCommand.h"
 #include <glm/fwd.hpp>
 #include <memory>
 #include "renderer.h"
@@ -11,6 +12,11 @@ namespace NEKO
     void Renderer::BeginScene(OrthographicCamera &camera)
     {
         m_SceneData->ViewProjectionMatrix = camera.GetViewProjectMatrix();
+    }
+
+    void Renderer::Init()
+    {
+        RenderCommand::Init();
     }
 
     void Renderer::EndScene()

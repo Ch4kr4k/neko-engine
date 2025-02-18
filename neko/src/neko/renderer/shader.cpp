@@ -7,6 +7,23 @@
 
 namespace NEKO
 {
+    Shadder* Shadder::Create(const std::string &filepath)
+    {
+        switch (Renderer::GetAPI())
+        {
+            case RendererAPI::API::None:
+            {
+                NEKO_CORE_ERR("NOT SUpported");
+                return nullptr;
+            }
+
+            case RendererAPI::API::OpenGL: return new OpenGLShadder(filepath);
+        }
+
+        NEKO_CORE_ERR("Unkown API");
+        return nullptr;
+    }
+
     Shadder* Shadder::Create(const std::string &vertex_src, const std::string &fragment_src)
     {
         switch (Renderer::GetAPI())
@@ -23,4 +40,6 @@ namespace NEKO
         NEKO_CORE_ERR("Unkown API");
         return nullptr;
     }
+
+
 }

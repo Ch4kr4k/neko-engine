@@ -27,6 +27,8 @@ namespace NEKO
         m_Window = std::unique_ptr<Window>(Window::Create());
         m_Window->SetEventCallback(BIND_EVENT_FN(OnEvent));
 
+        Renderer::Init();
+
         m_imgui_layer = new imgui_layer();
         PushOverlay(m_imgui_layer);
 

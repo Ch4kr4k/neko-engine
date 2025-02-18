@@ -437,8 +437,8 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o: \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/14.2.1/bits/fstream.tcc \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/RenderCommand.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/RendererAPI.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/VertexArray.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Buffer.h
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Buffer.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer.h
