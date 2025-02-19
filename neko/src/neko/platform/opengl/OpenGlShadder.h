@@ -13,11 +13,12 @@ namespace NEKO
     class OpenGLShadder : public Shadder {
         public:
             OpenGLShadder(const std::string &filepath);
-            OpenGLShadder(const std::string &vertex_src, const std::string& fragment_src);
+            OpenGLShadder(const std::string &name, const std::string &vertex_src, const std::string& fragment_src);
             virtual ~OpenGLShadder();
 
-            void Bind() const override;
-            void UnBind() const override;
+            virtual void Bind() const override;
+            virtual void UnBind() const override;
+            virtual const std::string &GetName() override {return m_Name;};
 
             void UploadUniformInt(const std::string &name ,int &values);
 
@@ -35,5 +36,6 @@ namespace NEKO
             void Compile(const std::unordered_map<GLenum, std::string> &shadderSources);
         private:
             uint32_t m_RendererID;
+            std::string m_Name;
     };
 }

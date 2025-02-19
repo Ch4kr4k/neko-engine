@@ -2,7 +2,6 @@
 #include "neko/Events/Event.h"
 #include "neko/Events/keyE.h"
 #include "neko/app.h"
-#include "neko/core.h"
 #include "neko/input.h"
 #include "neko/keycodes.h"
 #include "neko/log.h"
@@ -98,7 +97,7 @@ class ex_layer : public NEKO::Layer {
                 }
             )";
 
-            m_Shadder.reset(NEKO::Shadder::Create(vertexSrc, fragmentSrc));
+            m_Shadder = (NEKO::Shadder::Create("VertexColourTriangle" , vertexSrc, fragmentSrc));
 
             std::string flatvertexSrc = R"(
                 #version 430 core
@@ -125,10 +124,10 @@ class ex_layer : public NEKO::Layer {
                 }
             )";
 
-            m_BlueShadder.reset(NEKO::Shadder::Create(flatvertexSrc, flatfragmentSrc));
+            m_BlueShadder = (NEKO::Shadder::Create("FlatColour", flatvertexSrc, flatfragmentSrc));
 
             // color = (v_TexCoord, 0.0, 1.0);
-            m_TextureShadder.reset(NEKO::Shadder::Create("assets/shaders/Texture.glsl"));
+            m_TextureShadder = (NEKO::Shadder::Create("assets/shaders/Texture.glsl"));
             m_Texture = (NEKO::Texture2D::Create("assets/textures/Checkerboard.png"));
             m_Cherno_Logo = (NEKO::Texture2D::Create("assets/textures/ChernoLogo.png"));
             std::dynamic_pointer_cast<NEKO::OpenGLShadder>(m_TextureShadder)->Bind();

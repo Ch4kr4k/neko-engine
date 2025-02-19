@@ -118,10 +118,13 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o: \
  /usr/include/c++/14.2.1/bits/charconv.h \
  /usr/include/c++/14.2.1/bits/basic_string.tcc \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/core.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/shader.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/NPCH.h \
- /usr/include/c++/14.2.1/iostream /usr/include/c++/14.2.1/ostream \
- /usr/include/c++/14.2.1/ios /usr/include/c++/14.2.1/exception \
+ /usr/include/c++/14.2.1/memory \
+ /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
+ /usr/include/c++/14.2.1/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/14.2.1/bits/align.h \
+ /usr/include/c++/14.2.1/bits/unique_ptr.h \
+ /usr/include/c++/14.2.1/ostream /usr/include/c++/14.2.1/ios \
+ /usr/include/c++/14.2.1/exception \
  /usr/include/c++/14.2.1/bits/exception_ptr.h \
  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
  /usr/include/c++/14.2.1/typeinfo \
@@ -160,13 +163,7 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o: \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
- /usr/include/c++/14.2.1/bits/ostream.tcc /usr/include/c++/14.2.1/istream \
- /usr/include/c++/14.2.1/bits/istream.tcc /usr/include/c++/14.2.1/utility \
- /usr/include/c++/14.2.1/bits/stl_relops.h /usr/include/c++/14.2.1/memory \
- /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
- /usr/include/c++/14.2.1/bits/stl_raw_storage_iter.h \
- /usr/include/c++/14.2.1/bits/align.h \
- /usr/include/c++/14.2.1/bits/unique_ptr.h \
+ /usr/include/c++/14.2.1/bits/ostream.tcc \
  /usr/include/c++/14.2.1/bits/shared_ptr.h \
  /usr/include/c++/14.2.1/bits/shared_ptr_base.h \
  /usr/include/c++/14.2.1/bits/allocated_ptr.h \
@@ -195,6 +192,11 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o: \
  /usr/include/c++/14.2.1/bits/ranges_algobase.h \
  /usr/include/c++/14.2.1/pstl/glue_memory_defs.h \
  /usr/include/c++/14.2.1/pstl/execution_defs.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/log.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/NPCH.h \
+ /usr/include/c++/14.2.1/iostream /usr/include/c++/14.2.1/istream \
+ /usr/include/c++/14.2.1/bits/istream.tcc /usr/include/c++/14.2.1/utility \
+ /usr/include/c++/14.2.1/bits/stl_relops.h \
  /usr/include/c++/14.2.1/algorithm \
  /usr/include/c++/14.2.1/bits/stl_algo.h \
  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
@@ -213,16 +215,43 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o: \
  /usr/include/c++/14.2.1/bits/erase_if.h /usr/include/c++/14.2.1/array \
  /usr/include/c++/14.2.1/sstream /usr/include/c++/14.2.1/bits/sstream.tcc \
  /usr/include/c++/14.2.1/unordered_set \
- /usr/include/c++/14.2.1/bits/unordered_set.h /usr/include/glm/glm.hpp \
- /usr/include/glm/detail/_fixes.hpp /usr/include/c++/14.2.1/cmath \
- /usr/include/math.h /usr/include/bits/math-vector.h \
- /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/c++/14.2.1/bits/unordered_set.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/spdlog.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/common.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/null_mutex.h \
+ /usr/include/c++/14.2.1/atomic \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/tweakme.h \
+ /usr/include/c++/14.2.1/chrono /usr/include/c++/14.2.1/bits/chrono.h \
+ /usr/include/c++/14.2.1/ratio /usr/include/c++/14.2.1/limits \
+ /usr/include/c++/14.2.1/ctime \
+ /usr/include/c++/14.2.1/bits/parse_numbers.h \
+ /usr/include/c++/14.2.1/bits/chrono_io.h /usr/include/c++/14.2.1/iomanip \
+ /usr/include/c++/14.2.1/locale \
+ /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/14.2.1/bits/codecvt.h \
+ /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/14.2.1/bits/locale_conv.h \
+ /usr/include/c++/14.2.1/bits/quoted_string.h \
+ /usr/include/c++/14.2.1/format /usr/include/c++/14.2.1/charconv \
+ /usr/include/c++/14.2.1/optional /usr/include/c++/14.2.1/span \
+ /usr/include/c++/14.2.1/variant /usr/include/c++/14.2.1/bits/unicode.h \
+ /usr/include/c++/14.2.1/bits/unicode-data.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/fmt.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/bundled/core.h \
+ /usr/include/c++/14.2.1/cstring /usr/include/string.h \
+ /usr/include/strings.h /usr/include/c++/14.2.1/iterator \
+ /usr/include/c++/14.2.1/bits/stream_iterator.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/bundled/format.h \
+ /usr/include/c++/14.2.1/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
  /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
  /usr/include/bits/mathcalls-helper-functions.h \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
  /usr/include/bits/iscanonical.h /usr/include/c++/14.2.1/bits/specfun.h \
- /usr/include/c++/14.2.1/limits /usr/include/c++/14.2.1/tr1/gamma.tcc \
+ /usr/include/c++/14.2.1/tr1/gamma.tcc \
  /usr/include/c++/14.2.1/tr1/special_function_util.h \
  /usr/include/c++/14.2.1/tr1/bessel_function.tcc \
  /usr/include/c++/14.2.1/tr1/beta_function.tcc \
@@ -234,8 +263,74 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o: \
  /usr/include/c++/14.2.1/tr1/poly_hermite.tcc \
  /usr/include/c++/14.2.1/tr1/poly_laguerre.tcc \
  /usr/include/c++/14.2.1/tr1/riemann_zeta.tcc \
- /usr/include/glm/detail/setup.hpp /usr/include/c++/14.2.1/cassert \
- /usr/include/assert.h /usr/include/glm/simd/platform.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/bundled/core.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/bundled/format.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/common-inl.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/registry.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/periodic_worker.h \
+ /usr/include/c++/14.2.1/condition_variable \
+ /usr/include/c++/14.2.1/bits/unique_lock.h \
+ /usr/include/c++/14.2.1/stop_token \
+ /usr/include/c++/14.2.1/bits/std_thread.h \
+ /usr/include/c++/14.2.1/semaphore \
+ /usr/include/c++/14.2.1/bits/semaphore_base.h \
+ /usr/include/c++/14.2.1/bits/atomic_timed_wait.h \
+ /usr/include/c++/14.2.1/bits/this_thread_sleep.h /usr/include/sys/time.h \
+ /usr/include/semaphore.h /usr/include/bits/semaphore.h \
+ /usr/include/c++/14.2.1/mutex /usr/include/c++/14.2.1/thread \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/periodic_worker-inl.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/registry-inl.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/logger.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/backtracer.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/circular_q.h \
+ /usr/include/c++/14.2.1/cassert /usr/include/assert.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/log_msg_buffer.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/log_msg.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/log_msg-inl.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/os.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/os-inl.h \
+ /usr/include/sys/stat.h /usr/include/bits/stat.h \
+ /usr/include/bits/struct_stat.h /usr/include/bits/statx.h \
+ /usr/include/linux/stat.h /usr/include/bits/statx-generic.h \
+ /usr/include/bits/types/struct_statx_timestamp.h \
+ /usr/include/bits/types/struct_statx.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/types/struct_iovec.h /usr/include/linux/falloc.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/log_msg_buffer-inl.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/backtracer-inl.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/logger-inl.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/pattern_formatter.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/formatter.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/pattern_formatter-inl.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/fmt_helper.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/mdc.h \
+ /usr/include/c++/14.2.1/map /usr/include/c++/14.2.1/bits/stl_tree.h \
+ /usr/include/c++/14.2.1/bits/stl_map.h \
+ /usr/include/c++/14.2.1/bits/stl_multimap.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/sinks/sink.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/sinks/sink-inl.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/sinks/ansicolor_sink.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/console_globals.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/version.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/spdlog-inl.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/ostr.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h \
+ /usr/include/c++/14.2.1/fstream \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/14.2.1/bits/fstream.tcc \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGlBuffer.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/RenderCommand.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/RendererAPI.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/VertexArray.h \
+ /usr/include/glm/glm.hpp /usr/include/glm/detail/_fixes.hpp \
+ /usr/include/glm/detail/setup.hpp /usr/include/glm/simd/platform.h \
  /usr/include/c++/14.2.1/cfloat \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/float.h \
  /usr/include/glm/fwd.hpp /usr/include/glm/detail/qualifier.hpp \
@@ -349,97 +444,5 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/Buffer.cpp.o: \
  /usr/include/glm/detail/type_half.hpp \
  /usr/include/glm/detail/type_half.inl /usr/include/glm/integer.hpp \
  /usr/include/glm/detail/func_integer.inl \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/log.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/spdlog.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/common.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/null_mutex.h \
- /usr/include/c++/14.2.1/atomic \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/tweakme.h \
- /usr/include/c++/14.2.1/chrono /usr/include/c++/14.2.1/bits/chrono.h \
- /usr/include/c++/14.2.1/ratio /usr/include/c++/14.2.1/ctime \
- /usr/include/c++/14.2.1/bits/parse_numbers.h \
- /usr/include/c++/14.2.1/bits/chrono_io.h /usr/include/c++/14.2.1/iomanip \
- /usr/include/c++/14.2.1/locale \
- /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
- /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
- /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/14.2.1/bits/codecvt.h \
- /usr/include/c++/14.2.1/bits/locale_facets_nonio.tcc \
- /usr/include/c++/14.2.1/bits/locale_conv.h \
- /usr/include/c++/14.2.1/bits/quoted_string.h \
- /usr/include/c++/14.2.1/format /usr/include/c++/14.2.1/charconv \
- /usr/include/c++/14.2.1/optional /usr/include/c++/14.2.1/span \
- /usr/include/c++/14.2.1/variant /usr/include/c++/14.2.1/bits/unicode.h \
- /usr/include/c++/14.2.1/bits/unicode-data.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/fmt.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/bundled/core.h \
- /usr/include/c++/14.2.1/cstring /usr/include/string.h \
- /usr/include/strings.h /usr/include/c++/14.2.1/iterator \
- /usr/include/c++/14.2.1/bits/stream_iterator.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/bundled/format.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/bundled/core.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/bundled/format.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/common-inl.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/registry.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/periodic_worker.h \
- /usr/include/c++/14.2.1/condition_variable \
- /usr/include/c++/14.2.1/bits/unique_lock.h \
- /usr/include/c++/14.2.1/stop_token \
- /usr/include/c++/14.2.1/bits/std_thread.h \
- /usr/include/c++/14.2.1/semaphore \
- /usr/include/c++/14.2.1/bits/semaphore_base.h \
- /usr/include/c++/14.2.1/bits/atomic_timed_wait.h \
- /usr/include/c++/14.2.1/bits/this_thread_sleep.h /usr/include/sys/time.h \
- /usr/include/semaphore.h /usr/include/bits/semaphore.h \
- /usr/include/c++/14.2.1/mutex /usr/include/c++/14.2.1/thread \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/periodic_worker-inl.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/registry-inl.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/logger.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/backtracer.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/circular_q.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/log_msg_buffer.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/log_msg.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/log_msg-inl.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/os.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/os-inl.h \
- /usr/include/sys/stat.h /usr/include/bits/stat.h \
- /usr/include/bits/struct_stat.h /usr/include/bits/statx.h \
- /usr/include/linux/stat.h /usr/include/bits/statx-generic.h \
- /usr/include/bits/types/struct_statx_timestamp.h \
- /usr/include/bits/types/struct_statx.h /usr/include/fcntl.h \
- /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
- /usr/include/bits/types/struct_iovec.h /usr/include/linux/falloc.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/log_msg_buffer-inl.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/backtracer-inl.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/logger-inl.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/pattern_formatter.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/formatter.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/pattern_formatter-inl.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/fmt_helper.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/mdc.h \
- /usr/include/c++/14.2.1/map /usr/include/c++/14.2.1/bits/stl_tree.h \
- /usr/include/c++/14.2.1/bits/stl_map.h \
- /usr/include/c++/14.2.1/bits/stl_multimap.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/sinks/sink.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/sinks/sink-inl.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/sinks/ansicolor_sink.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/console_globals.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/synchronous_factory.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/version.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/spdlog-inl.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/ostr.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h \
- /usr/include/c++/14.2.1/fstream \
- /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
- /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
- /usr/include/c++/14.2.1/bits/fstream.tcc \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGlBuffer.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/RenderCommand.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/RendererAPI.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/VertexArray.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/OrthographicCamera.h
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/OrthographicCamera.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/shader.h

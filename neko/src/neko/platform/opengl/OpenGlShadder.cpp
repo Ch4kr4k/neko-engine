@@ -1,10 +1,12 @@
 #include "OpenGlShadder.h"
 #include "neko/log.h"
 #include "neko/renderer/Buffer.h"
+#include <array>
 #include <fstream>
 #include <glm/gtc/type_ptr.hpp>
 #include <unordered_map>
 #include "glad/glad.h"
+#include "NPCH.h"
 namespace NEKO
 {
 
@@ -22,9 +24,18 @@ namespace NEKO
         std::string source = ReadFile(filepath);
         auto shaderSources = PreProcess(source);
         Compile(shaderSources);
+
+        // assets/Texture.glsl
+        auto lastSlash = filepath.find_last_of("/\\");
+        lastSlash = lastSlash == std::string::npos ? 0 : lastSlash + 1;
+
+        auto lastDot = filepath.find('.');
+        auto count = lastDot == std::string::npos ? filepath.size() - lastSlash : lastDot - lastSlash;
+        m_Name = filepath.substr(lastSlash, count);
     }
 
-    OpenGLShadder::OpenGLShadder(const std::string &vertex_src, const std::string &fragment_src)
+    OpenGLShadder::OpenGLShadder(const std::string &name, const std::string &vertex_src, const std::string &fragment_src)
+        : m_Name(name)
     {
         std::unordered_map<GLenum, std::string> sources;
         sources[GL_VERTEX_SHADER] = vertex_src;
@@ -75,7 +86,9 @@ namespace NEKO
     void OpenGLShadder::Compile(const std::unordered_map<GLenum, std::string> &shadderSources)
     {
         GLuint program = glCreateProgram();
-        std::vector<GLenum> glShaderIDs(shadderSources.size());
+        if (shadderSources.size() > 2) NEKO_CORE_ERR("Supports only 2 shadder: shadder found {0}", shadderSources.size());
+        std::array<GLenum, 2> glShaderIDs;
+        int glShaderIDidx = 0;
 
         for (auto &kv : shadderSources) {
             GLenum type = kv.first;
@@ -104,7 +117,7 @@ namespace NEKO
             }
 
             glad_glAttachShader(program, shader);
-            glShaderIDs.emplace_back(shader);
+            glShaderIDs[glShaderIDidx++] = shader;
         }
 
         m_RendererID = program;

@@ -1,7 +1,6 @@
 #pragma once
 
 //#include "Assert.h"
-#include "neko/renderer/shader.h"
 #include <memory>
 #define NekoApi __attribute__((visibility("default")))
 #define BIT(x) (1 << x)

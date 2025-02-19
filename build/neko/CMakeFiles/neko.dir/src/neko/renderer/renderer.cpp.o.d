@@ -212,6 +212,7 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o: \
  /usr/include/c++/14.2.1/bits/unordered_set.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/platform/opengl/OpenGlShadder.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/shader.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/core.h \
  /usr/include/glm/glm.hpp /usr/include/glm/detail/_fixes.hpp \
  /usr/include/c++/14.2.1/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
@@ -349,7 +350,6 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o: \
  /usr/include/glm/detail/func_integer.inl \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/OrthographicCamera.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/log.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/core.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/spdlog.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/common.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/null_mutex.h \
