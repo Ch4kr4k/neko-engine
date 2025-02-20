@@ -47,6 +47,7 @@ app/CMakeFiles/app.dir/s_app.cpp.o
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/Events/appE.h
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/Events/keyE.h
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/Events/mouseE.h
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/OrthographiCameraController.h
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/app.h
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/core.h
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/core/Timestep.h

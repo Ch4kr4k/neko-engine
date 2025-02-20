@@ -458,6 +458,7 @@ app/CMakeFiles/app.dir/s_app.cpp.o: \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/renderer/RenderCommand.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/renderer/RendererAPI.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/renderer/Texture.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/OrthographiCameraController.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/epoint.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/vendor/imgui/imgui.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/vendor/imgui/imconfig.h \

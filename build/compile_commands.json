@@ -1,6 +1,12 @@
 [
 {
   "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko",
+  "command": "/usr/bin/c++  -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/src -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm/glm -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/stb_image -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/stb_image/. -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/neko.dir/src/neko/OrthographiCameraController.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/OrthographiCameraController.cpp",
+  "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/OrthographiCameraController.cpp",
+  "output": "neko/CMakeFiles/neko.dir/src/neko/OrthographiCameraController.cpp.o"
+},
+{
+  "directory": "/home/chakrak/ws/proj/src/cpp/game_engine/build/neko",
   "command": "/usr/bin/c++  -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/src -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glm/glm -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/stb_image -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glfw/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/glad/include -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui -I/home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/stb_image/. -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/neko.dir/src/neko/app.cpp.o -c /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/app.cpp",
   "file": "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/app.cpp",
   "output": "neko/CMakeFiles/neko.dir/src/neko/app.cpp.o"

@@ -17,8 +17,7 @@
 class ex_layer : public NEKO::Layer {
     public:
         ex_layer()
-            : Layer("ex's"),
-              m_Camera(-1.6f, 1.6f, -0.9f, 0.9f),
+            : Layer("example"), m_CameraController(1280.0f / 720.0f, true),
               m_CameraPosition(0.0f),
               m_SquarePosition(0.0f)
         {
@@ -138,28 +137,15 @@ class ex_layer : public NEKO::Layer {
         void OnUpdate(NEKO::Timestep ts) override
         {
             // Camera movement
-            if(NEKO::Input::IsKeyPressed(NEKO_KEY_LEFT))
-                m_CameraPosition.x -= m_CameraSpeed * ts;
-            // Transfomation of object
-            if(NEKO::Input::IsKeyPressed(NEKO_KEY_J))
-                m_SquarePosition.x -= m_SquareMoveSpeed * ts;
+            m_CameraController.OnUpdate(ts);
 
+            // renderer
             NEKO::RenderCommand::SetClearColor({0.10588f, 0.10196f, 0.14902f, 1.0f});
             NEKO::RenderCommand::Clear();
 
-            m_Camera.SetPosition(m_CameraPosition);
-            //m_Camera.SetRotation(45.0f);
-            NEKO::Renderer::BeginScene(m_Camera);
+            NEKO::Renderer::BeginScene(m_CameraController.GetCamera());
 
             glm::mat4 scale = glm::scale(glm::mat4(1.0f), glm::vec3(0.1f));
-
-            //glm::vec4 redColor(0.8f, 0.2f, 0.3f, 1.0f);
-            //glm::vec4 blueColor(0.2f, 0.3f, 0.8f, 1.0f);
-
-            //NEKO::MaterialRef material = new NEKO::Material(m_FlatColorShader);
-
-            //material->Set("u_Color", redColor);
-            //squareMesh->SetMaterial(material);
 
             std::dynamic_pointer_cast<NEKO::OpenGLShadder>(m_BlueShadder)->Bind();
             std::dynamic_pointer_cast<NEKO::OpenGLShadder>(m_BlueShadder)->UploadUniformFloat3("u_Color", m_SquareColor);
@@ -168,8 +154,6 @@ class ex_layer : public NEKO::Layer {
                 for (int x=0; x < 20 ; ++x) {
                     glm::vec3 pos(x * 0.11f, y* 0.11f, 0.0f);
                     glm::mat4 transform = glm::translate(glm::mat4(1.0f), pos) * scale;
-                    //if (!(x % 2)) m_BlueShadder->UploadUniformFloat4("u_Color", redColor);
-                    //else m_BlueShadder->UploadUniformFloat4("u_Color", blueColor);
                     NEKO::Renderer::Submit(m_BlueShadder, m_SquareVA, transform);
                 }
             }
@@ -191,11 +175,10 @@ class ex_layer : public NEKO::Layer {
             ImGui::End();
         }
 
-        //void OnEvent(NEKO::Event &event) override
-        //{
-        //    NEKO::EventDispatcher dispatcher(event);
-        //    dispatcher.Dispatch<NEKO::KeyPressedEvent>(NEKO_BIND_EVENT_FN(ex_layer::OnKeyPressedEvent));
-        //}
+        void OnEvent(NEKO::Event &e) override
+        {
+            m_CameraController.OnEvent(e);
+        }
 
         //bool OnKeyPressedEvent(NEKO::KeyPressedEvent &event)
         //{
@@ -224,7 +207,7 @@ class ex_layer : public NEKO::Layer {
 
         NEKO::Ref<NEKO::Texture2D> m_Texture, m_Cherno_Logo;
 
-        NEKO::OrthographicCamera m_Camera;
+        NEKO::OrthographicCameraController m_CameraController;
         glm::vec3 m_CameraPosition;
         float m_CameraSpeed = 0.1f;
         float m_SquareMoveSpeed = 1.0f;

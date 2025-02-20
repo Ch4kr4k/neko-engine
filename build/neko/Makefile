@@ -175,6 +175,30 @@ neko/fast:
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/build
 .PHONY : neko/fast
 
+src/neko/OrthographiCameraController.o: src/neko/OrthographiCameraController.cpp.o
+.PHONY : src/neko/OrthographiCameraController.o
+
+# target to build an object file
+src/neko/OrthographiCameraController.cpp.o:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/OrthographiCameraController.cpp.o
+.PHONY : src/neko/OrthographiCameraController.cpp.o
+
+src/neko/OrthographiCameraController.i: src/neko/OrthographiCameraController.cpp.i
+.PHONY : src/neko/OrthographiCameraController.i
+
+# target to preprocess a source file
+src/neko/OrthographiCameraController.cpp.i:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/OrthographiCameraController.cpp.i
+.PHONY : src/neko/OrthographiCameraController.cpp.i
+
+src/neko/OrthographiCameraController.s: src/neko/OrthographiCameraController.cpp.s
+.PHONY : src/neko/OrthographiCameraController.s
+
+# target to generate assembly for a file
+src/neko/OrthographiCameraController.cpp.s:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/OrthographiCameraController.cpp.s
+.PHONY : src/neko/OrthographiCameraController.cpp.s
+
 src/neko/app.o: src/neko/app.cpp.o
 .PHONY : src/neko/app.o
 
@@ -716,6 +740,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... neko"
+	@echo "... src/neko/OrthographiCameraController.o"
+	@echo "... src/neko/OrthographiCameraController.i"
+	@echo "... src/neko/OrthographiCameraController.s"
 	@echo "... src/neko/app.o"
 	@echo "... src/neko/app.i"
 	@echo "... src/neko/app.s"

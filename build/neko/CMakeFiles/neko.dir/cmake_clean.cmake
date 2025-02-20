@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "../Out/app/lib/libneko.a"
   "../Out/app/lib/libneko.pdb"
+  "CMakeFiles/neko.dir/src/neko/OrthographiCameraController.cpp.o"
+  "CMakeFiles/neko.dir/src/neko/OrthographiCameraController.cpp.o.d"
   "CMakeFiles/neko.dir/src/neko/app.cpp.o"
   "CMakeFiles/neko.dir/src/neko/app.cpp.o.d"
   "CMakeFiles/neko.dir/src/neko/imgui/imgui_build.cpp.o"

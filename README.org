@@ -1,0 +1,90 @@
+#+title: NEKO-GAME-ENGINE
+#+description: Linux Game Engine
+#+author: Chakrak Chiangko
+
+* PLAN AND TODO
+
+- [X] Entry Point
+- [X] Logging
+- [X] Build System [Premake | CMAKE]
+- [X] Event System
+- [X] Pre Compiled Headers
+- [X] Window Abstraction and GLFW
+- [X] Window Events
+- [X] Layers
+- [X] Glad
+- [X] Imgui
+- [X] Imgui Events
+- [X] Input Polling
+- [X] Key and Mouse Codes
+- [X] glm::Maths
+- [X] imgui docking and viewport
+- [X] renderer
+- [X] dynamic to static libraries
+- [X] rendering context
+- [X] OpenGL shadders
+- [X] Renderer API Abstraction
+- [X] vertex buffer
+- [X] vertex arrays
+- [X] cameras | orthographic camera
+- [X] SandBox App
+- [X] Delta Time | Timesteps
+- [X] Material Systems
+- [X] Shadder Abstraction
+- [X] Refs, Scopes and Smart Pointers
+- [X] Textures
+- [X] Blending
+- [X] SHadder Asset Files
+- [X] Shadder Library
+- [ ] 2D renderer
+- [ ] Game Controllers
+- [ ] Resizing
+- [ ] Maintaining
+- [ ] 2D Rendering
+- [ ] 2D Renderer Transforms
+- [ ] 2D Renderer Textures
+- [ ] Single SHader 2D Renderer
+- [ ] Profiling
+- [ ] Visual Profiling
+- [ ] Instrumentation
+- [ ] Batch Rendering
+- [ ] Rotated Quads
+- [ ] Sprites
+- [ ] SubTextures
+- [ ] Map of tiles
+- [ ] DOCK Space + Next Step
+- [ ] Frame Buffers
+- [ ] Entity Component System
+- [ ] EnTT ECS
+- [ ] Entity Class
+- [ ] Camera Systems
+- [ ] Scene Camera
+- [ ] Native Scripting
+- [ ] Scene Heirarchy Panel
+- [ ] Properties Panel
+- [ ] Camera Component UI
+- [ ] Drawing COmponent UI
+- [ ] Transform COmponent UI
+- [ ] Adding/Removin Entities and component UI
+- [ ] EDITOR
+- [ ] Saving and loading
+- [ ] open/save dialogs
+- [ ] Transformation Gizmos
+- [ ] Editor Camera
+- [ ] Multiple Render Targets and Frame Buffer
+- [ ] Clearing Frame Buffer
+- [ ] Mouse Picking
+- [ ] Clicking to Select Entities
+- [ ] SPIR-V and Shader System
+- [ ] Content Browser Asset Panel
+- [ ] Content Browser Drag and Drop
+- [ ] Texture for entities
+- [ ] Play Button
+- [ ] 2D Physics
+- [ ] Unique IDS
+- [ ] Playing and Stoping scenes
+- [ ] Rendering circles
+- [ ] rendering lines
+- [ ] circle physics
+- [ ] visualization
+- [ ] physics simulation

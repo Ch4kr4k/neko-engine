@@ -45,6 +45,7 @@ app/CMakeFiles/app.dir/s_app.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/ap
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/Events/appE.h \
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/Events/keyE.h \
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/Events/mouseE.h \
+  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/OrthographiCameraController.h \
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/app.h \
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/core.h \
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/core/Timestep.h \
@@ -831,7 +832,7 @@ app/CMakeFiles/app.dir/s_app.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/ap
 
 /usr/include/glm/ext/scalar_constants.hpp:
 
-/usr/include/c++/14.2.1/bits/invoke.h:
+/usr/include/glm/ext/quaternion_relational.inl:
 
 /usr/include/c++/14.2.1/bits/functional_hash.h:
 
@@ -844,8 +845,6 @@ app/CMakeFiles/app.dir/s_app.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/ap
 /usr/include/c++/14.2.1/bits/basic_ios.tcc:
 
 /usr/include/bits/stdlib-bsearch.h:
-
-/usr/include/c++/14.2.1/bits/atomic_wait.h:
 
 /usr/include/c++/14.2.1/bits/atomic_timed_wait.h:
 
@@ -884,6 +883,8 @@ app/CMakeFiles/app.dir/s_app.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/ap
 /usr/include/glm/ext/quaternion_trigonometric.hpp:
 
 /usr/include/bits/types/struct_timespec.h:
+
+/usr/include/c++/14.2.1/bits/invoke.h:
 
 /usr/include/glm/gtc/epsilon.inl:
 
@@ -1127,15 +1128,21 @@ lib/libstb_image.a:
 
 /usr/include/c++/14.2.1/bits/hashtable_policy.h:
 
-/usr/include/c++/14.2.1/span:
-
-/usr/include/bits/atomic_wide_counter.h:
-
 /usr/include/c++/14.2.1/bits/specfun.h:
 
 /usr/include/c++/14.2.1/map:
 
 /usr/include/c++/14.2.1/bits/exception.h:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/c++/14.2.1/span:
+
+/usr/include/c++/14.2.1/bits/atomic_wait.h:
+
+/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/OrthographiCameraController.h:
+
+/usr/include/glm/ext/matrix_float4x3.hpp:
 
 /usr/include/bits/types/struct_tm.h:
 
@@ -1146,6 +1153,12 @@ lib/libstb_image.a:
 /usr/lib/libdl.a:
 
 /usr/include/bits/uintn-identity.h:
+
+/usr/include/glm/ext/scalar_uint_sized.hpp:
+
+/usr/include/bits/endian.h:
+
+/usr/lib/libxcb.so.1:
 
 /usr/lib/libOpenGL.so:
 
@@ -1166,12 +1179,6 @@ lib/libstb_image.a:
 /usr/include/glm/ext/vector_double4_precision.hpp:
 
 /usr/include/c++/14.2.1/bits/sstream.tcc:
-
-/usr/lib/libxcb.so.1:
-
-/usr/include/glm/ext/scalar_uint_sized.hpp:
-
-/usr/include/bits/endian.h:
 
 /usr/include/glm/ext/vector_bool4_precision.hpp:
 
@@ -1488,8 +1495,6 @@ app/CMakeFiles/app.dir/s_app.cpp.o:
 /usr/include/c++/14.2.1/bits/locale_conv.h:
 
 /usr/include/c++/14.2.1/bits/locale_facets.tcc:
-
-/usr/include/glm/ext/quaternion_relational.inl:
 
 /usr/include/c++/14.2.1/bits/locale_facets_nonio.h:
 
@@ -1978,8 +1983,6 @@ Out/app/lib/libneko.a:
 /usr/include/sys/cdefs.h:
 
 /usr/include/glm/ext/matrix_float4x2_precision.hpp:
-
-/usr/include/glm/ext/matrix_float4x3.hpp:
 
 /usr/include/c++/14.2.1/bits/hashtable.h:
 
