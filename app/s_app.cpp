@@ -1,5 +1,6 @@
 #include "neko.h"
 #include "neko/Events/Event.h"
+#include "neko/Events/appE.h"
 #include "neko/Events/keyE.h"
 #include "neko/app.h"
 #include "neko/input.h"
@@ -178,6 +179,10 @@ class ex_layer : public NEKO::Layer {
         void OnEvent(NEKO::Event &e) override
         {
             m_CameraController.OnEvent(e);
+
+            if (e.GetEventType() == NEKO::EventType::WindowResize) {
+                auto &re = (NEKO::WindowResizeEvent&)e;
+            }
         }
 
         //bool OnKeyPressedEvent(NEKO::KeyPressedEvent &event)
