@@ -31,11 +31,13 @@ namespace NEKO
            inline Window &GetWindow() { return *m_Window; }
         private:
             bool OnWindowClose(WindowCloseEvent &e);
+            bool OnWindowResized(WindowResizeEvent &e);
         private:
             std::unique_ptr<Window> m_Window;
             imgui_layer *m_imgui_layer;
             bool m_Running = true;
             LayerStack m_LayerStack;
+            bool m_Minimized = false;
 
             float m_LastFrameTime = 0.0f;
         private:

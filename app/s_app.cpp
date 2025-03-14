@@ -13,6 +13,8 @@
 #include "neko/renderer/Texture.h"
 #include "neko/renderer/shader.h"
 #include <glm/gtc/type_ptr.hpp>
+#include "neko/epoint.h"
+#include "SandBox2D.h"
 #include <memory>
 
 class ex_layer : public NEKO::Layer {
@@ -22,7 +24,7 @@ class ex_layer : public NEKO::Layer {
               m_CameraPosition(0.0f),
               m_SquarePosition(0.0f)
         {
-            m_VertexArray.reset(NEKO::VertexArray::Create());
+            m_VertexArray = (NEKO::VertexArray::Create());
 
             float vertices[3 * 7] = {
                 -0.5f, -0.5f, 0.0f, 0.8f, 0.2f, 0.8f, 1.0f, // -x, -y , z 3rd quadrant
@@ -45,7 +47,7 @@ class ex_layer : public NEKO::Layer {
             indexBuffer.reset(NEKO::IndexBuffer::Create(indices, sizeof(indices) / sizeof(uint32_t)));
             m_VertexArray->SetIndexBuffer(indexBuffer);
 
-            m_SquareVA.reset(NEKO::VertexArray::Create());
+            m_SquareVA = (NEKO::VertexArray::Create());
 
             float Squarevertices[5 * 4] = {
                 -0.5f, -0.5f, 0.0f, 0.0f, 0.0f,
@@ -225,7 +227,8 @@ class SboxApp : public NEKO::Application{
     public:
         SboxApp()
         {
-            PushLayer(new ex_layer());
+            //PushLayer(new ex_layer());
+            PushLayer(new Sandbox2D());
             // PushOverlay(new NEKO::imgui_layer);
         }
 

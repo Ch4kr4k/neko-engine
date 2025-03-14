@@ -14,6 +14,11 @@ namespace NEKO
         m_SceneData->ViewProjectionMatrix = camera.GetViewProjectMatrix();
     }
 
+    void Renderer::OnWindowResize(uint32_t width, uint32_t height)
+    {
+        RenderCommand::SetViewport(0, 0, width, height);
+    }
+
     void Renderer::Init()
     {
         RenderCommand::Init();

@@ -4,6 +4,7 @@ project(App)
 
 # Specify source files
 set(APP_SOURCES
+    SandBox2D.cpp
     s_app.cpp
 )
 

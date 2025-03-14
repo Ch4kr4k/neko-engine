@@ -36,7 +36,7 @@
 - [X] Blending
 - [X] SHadder Asset Files
 - [X] Shadder Library
-- [ ] 2D renderer
+- [X] 2D renderer
 - [ ] Game Controllers
 - [ ] Resizing
 - [ ] Maintaining

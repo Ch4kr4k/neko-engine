@@ -1,5 +1,6 @@
 #include "app.h"
 #include "GLFW/glfw3.h"
+#include "neko/Events/appE.h"
 #include "neko/imgui/imgui_layer.h"
 #include "neko/renderer/Buffer.h"
 #include "neko/renderer/VertexArray.h"
@@ -52,6 +53,7 @@ namespace NEKO
     {
         EventDispatcher dispatcher(e);
         dispatcher.Dispatch<WindowCloseEvent>(BIND_EVENT_FN(OnWindowClose));
+        dispatcher.Dispatch<WindowResizeEvent>(BIND_EVENT_FN(OnWindowResized));
 
         for (auto it = m_LayerStack.end(); it != m_LayerStack.begin();)
         {
@@ -68,7 +70,9 @@ namespace NEKO
             Timestep timestep = time - m_LastFrameTime;
             m_LastFrameTime = time;
 
-            for (Layer *layer : m_LayerStack) layer->OnUpdate(timestep);
+            if (!m_Minimized) {
+                for (Layer *layer : m_LayerStack) layer->OnUpdate(timestep);
+            }
 
             m_imgui_layer->Begin();
             for (Layer *layer : m_LayerStack) layer->OnImGuiRender();
@@ -76,6 +80,17 @@ namespace NEKO
 
             m_Window->OnUpdate();
         }
+    }
+
+    bool Application::OnWindowResized(WindowResizeEvent &e)
+    {
+        if (e.GetHeight() == 0 || e.GetWidth() == 0) {
+            m_Minimized = true;
+            return true;
+        }
+        m_Minimized = false;
+        Renderer::OnWindowResize(e.GetWidth(), e.GetHeight());
+        return false;
     }
 
     bool Application::OnWindowClose(WindowCloseEvent &e)

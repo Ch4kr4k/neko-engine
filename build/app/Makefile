@@ -175,6 +175,30 @@ app/fast:
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/build
 .PHONY : app/fast
 
+SandBox2D.o: SandBox2D.cpp.o
+.PHONY : SandBox2D.o
+
+# target to build an object file
+SandBox2D.cpp.o:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/SandBox2D.cpp.o
+.PHONY : SandBox2D.cpp.o
+
+SandBox2D.i: SandBox2D.cpp.i
+.PHONY : SandBox2D.i
+
+# target to preprocess a source file
+SandBox2D.cpp.i:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/SandBox2D.cpp.i
+.PHONY : SandBox2D.cpp.i
+
+SandBox2D.s: SandBox2D.cpp.s
+.PHONY : SandBox2D.s
+
+# target to generate assembly for a file
+SandBox2D.cpp.s:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/app.dir/build.make app/CMakeFiles/app.dir/SandBox2D.cpp.s
+.PHONY : SandBox2D.cpp.s
+
 s_app.o: s_app.cpp.o
 .PHONY : s_app.o
 
@@ -212,6 +236,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... app"
+	@echo "... SandBox2D.o"
+	@echo "... SandBox2D.i"
+	@echo "... SandBox2D.s"
 	@echo "... s_app.o"
 	@echo "... s_app.i"
 	@echo "... s_app.s"

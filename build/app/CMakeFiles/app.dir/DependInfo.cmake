@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/chakrak/ws/proj/src/cpp/game_engine/app/SandBox2D.cpp" "app/CMakeFiles/app.dir/SandBox2D.cpp.o" "gcc" "app/CMakeFiles/app.dir/SandBox2D.cpp.o.d"
   "/home/chakrak/ws/proj/src/cpp/game_engine/app/s_app.cpp" "app/CMakeFiles/app.dir/s_app.cpp.o" "gcc" "app/CMakeFiles/app.dir/s_app.cpp.o.d"
   "" "Out/app/app" "gcc" "app/CMakeFiles/app.dir/link.d"
   )

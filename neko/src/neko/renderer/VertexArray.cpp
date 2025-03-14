@@ -3,11 +3,12 @@
 #include "neko/log.h"
 #include "neko/renderer/renderer.h"
 #include "neko/platform/opengl/OpenGLVertexArray.h"
+#include <memory>
 
 
 namespace NEKO
 {
-    VertexArray *VertexArray::Create()
+    Ref<VertexArray> VertexArray::Create()
     {
         switch (Renderer::GetAPI())
         {
@@ -18,7 +19,7 @@ namespace NEKO
             }
 
             case RendererAPI::API::OpenGL:
-                return new OpenGLVertexArray();
+                return std::make_shared<OpenGLVertexArray>();
         }
 
         NEKO_CORE_ERR("Unkown API");

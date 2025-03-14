@@ -459,7 +459,6 @@ app/CMakeFiles/app.dir/s_app.cpp.o: \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/renderer/RendererAPI.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/renderer/Texture.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/OrthographiCameraController.h \
- /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/epoint.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/vendor/imgui/imgui.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/vendor/imgui/imconfig.h \
  /usr/include/glm/ext/matrix_transform.hpp \
@@ -507,4 +506,6 @@ app/CMakeFiles/app.dir/s_app.cpp.o: \
  /usr/include/glm/ext/vector_int1_sized.hpp \
  /usr/include/glm/ext/vector_uint1.hpp \
  /usr/include/glm/ext/vector_uint1_sized.hpp \
- /usr/include/glm/gtc/type_ptr.inl
+ /usr/include/glm/gtc/type_ptr.inl \
+ /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/epoint.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/app/SandBox2D.h

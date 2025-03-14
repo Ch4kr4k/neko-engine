@@ -20,6 +20,3 @@
 #include "neko/renderer/VertexArray.h"
 #include "neko/renderer/OrthographicCamera.h"
 #include "neko/OrthographiCameraController.h"
-// --- Entry ----
-#include "neko/epoint.h"
-// --------------
