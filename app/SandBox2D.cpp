@@ -4,6 +4,7 @@
 #include <glm/gtc/type_ptr.hpp>
 #include "neko/platform/opengl/OpenGlShadder.h"
 #include "imgui.h"
+#include "neko/renderer/renderer2D.h"
 
 
 Sandbox2D::Sandbox2D()
@@ -14,31 +15,6 @@ Sandbox2D::Sandbox2D()
 
 void Sandbox2D::OnAttach()
 {
-    m_SquareVA = (NEKO::VertexArray::Create());
-
-    float Squarevertices[5 * 4] = {
-        -0.5f, -0.5f, 0.0f,
-        0.5f, -0.5f, 0.0f,
-        0.5f,  0.5f, 0.0f,
-        -0.5f, 0.5f, 0.0f,
-    };
-
-    NEKO::Ref<NEKO::VertexBuffer> SquareVB;
-    SquareVB.reset(NEKO::VertexBuffer::Create(Squarevertices, sizeof(Squarevertices)));
-
-    SquareVB->SetLayout({
-        { NEKO::ShaderDataType::Float3, "a_Position" }
-    });
-
-    m_SquareVA->AddVertexBuffer(SquareVB);
-
-    uint32_t Squareindices[6] = { 0, 1, 2, 2, 3, 0};
-    NEKO::Ref<NEKO::IndexBuffer> squareIB;
-    squareIB.reset(NEKO::IndexBuffer::Create(Squareindices, sizeof(Squareindices)/sizeof(uint32_t)));
-    m_SquareVA->SetIndexBuffer(squareIB);
-
-    m_FlatColorShader = NEKO::Shadder::Create("assets/shaders/FlatColor.glsl");
-
 
 }
 
@@ -52,13 +28,10 @@ void Sandbox2D::OnUpdate(NEKO::Timestep ts)
     NEKO::RenderCommand::SetClearColor({0.10588f, 0.10196f, 0.14902f, 1.0f});
     NEKO::RenderCommand::Clear();
 
-    NEKO::Renderer::BeginScene(m_CameraController.GetCamera());
+    NEKO::Renderer2D::BeginScene(m_CameraController.GetCamera());
+    NEKO::Renderer2D::DrawQuad({0.0f, 0.0f}, {1.0f, 1.0f}, {0.8f, 0.2f, 0.3f, 1.0f});
+    NEKO::Renderer2D::EndScene();
 
-    std::dynamic_pointer_cast<NEKO::OpenGLShadder>(m_FlatColorShader)->Bind();
-    std::dynamic_pointer_cast<NEKO::OpenGLShadder>(m_FlatColorShader)->UploadUniformFloat4("u_Color", m_SquareColor);
-
-    NEKO::Renderer::Submit(m_FlatColorShader, m_SquareVA, glm::scale(glm::mat4(1.0f), glm::vec3(1.5f)));
-    NEKO::Renderer::EndScene();
 }
 
 void Sandbox2D::OnImGuiRender()

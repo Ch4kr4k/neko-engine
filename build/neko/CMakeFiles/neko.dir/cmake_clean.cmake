@@ -43,6 +43,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/neko.dir/src/neko/renderer/VertexArray.cpp.o.d"
   "CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o"
   "CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o.d"
+  "CMakeFiles/neko.dir/src/neko/renderer/renderer2D.cpp.o"
+  "CMakeFiles/neko.dir/src/neko/renderer/renderer2D.cpp.o.d"
   "CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.o"
   "CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.o.d"
   "CMakeFiles/neko.dir/src/neko/winwindows.cpp.o"

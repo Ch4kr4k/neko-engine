@@ -67,6 +67,7 @@ app/CMakeFiles/app.dir/SandBox2D.cpp.o
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Texture.h
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/VertexArray.h
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer.h
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer2D.h
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/shader.h
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/window.h
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui/imconfig.h
@@ -700,6 +701,7 @@ app/CMakeFiles/app.dir/s_app.cpp.o
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Texture.h
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/VertexArray.h
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer.h
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer2D.h
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/shader.h
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/window.h
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui/imconfig.h

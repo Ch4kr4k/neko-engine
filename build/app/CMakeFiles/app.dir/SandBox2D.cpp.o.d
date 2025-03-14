@@ -458,6 +458,7 @@ app/CMakeFiles/app.dir/SandBox2D.cpp.o: \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/renderer/renderer.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/renderer/RenderCommand.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/renderer/RendererAPI.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/renderer/renderer2D.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/renderer/Texture.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/app/../neko/src/neko/OrthographiCameraController.h \
  /usr/include/glm/ext/matrix_transform.hpp \

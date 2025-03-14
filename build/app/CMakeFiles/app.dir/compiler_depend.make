@@ -65,6 +65,7 @@ app/CMakeFiles/app.dir/SandBox2D.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engin
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Texture.h \
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/VertexArray.h \
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer.h \
+  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer2D.h \
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/shader.h \
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/window.h \
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui/imconfig.h \
@@ -697,6 +698,7 @@ app/CMakeFiles/app.dir/s_app.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/ap
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Texture.h \
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/VertexArray.h \
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer.h \
+  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer2D.h \
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/shader.h \
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/window.h \
   /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/imgui/imconfig.h \
@@ -1471,6 +1473,8 @@ app/CMakeFiles/app.dir/s_app.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/ap
 
 /usr/include/glm/ext/quaternion_relational.hpp:
 
+/usr/include/glm/ext/quaternion_geometric.inl:
+
 /usr/include/c++/14.2.1/bits/functional_hash.h:
 
 /usr/include/bits/types/__locale_t.h:
@@ -1570,8 +1574,6 @@ app/CMakeFiles/app.dir/s_app.cpp.o: /home/chakrak/ws/proj/src/cpp/game_engine/ap
 /usr/include/bits/types/__mbstate_t.h:
 
 /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/layerstack.h:
-
-/usr/include/bits/time.h:
 
 /usr/include/asm/posix_types.h:
 
@@ -1775,6 +1777,12 @@ app/CMakeFiles/app.dir/SandBox2D.cpp.o:
 
 lib/libstb_image.a:
 
+/usr/include/c++/14.2.1/bits/chrono_io.h:
+
+/usr/include/bits/confname.h:
+
+/usr/lib/libgcc_s.so.1:
+
 /usr/include/c++/14.2.1/map:
 
 /usr/include/c++/14.2.1/bits/exception.h:
@@ -1788,6 +1796,10 @@ lib/libstb_image.a:
 /usr/include/bits/types/struct_tm.h:
 
 /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Buffer.h:
+
+/usr/include/bits/time.h:
+
+/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer2D.h:
 
 /usr/include/glm/detail/type_vec1.hpp:
 
@@ -1963,10 +1975,6 @@ neko/vendor/glfw/src/libglfw3.a:
 
 app/CMakeFiles/app.dir/s_app.cpp.o:
 
-/usr/include/c++/14.2.1/bits/erase_if.h:
-
-/usr/lib/libGLdispatch.so.0:
-
 /usr/lib32/libX11.so.6:
 
 /home/chakrak/ws/proj/src/cpp/game_engine/neko/vendor/spdlog/include/spdlog/details/registry-inl.h:
@@ -1976,6 +1984,10 @@ app/CMakeFiles/app.dir/s_app.cpp.o:
 /usr/include/c++/14.2.1/bits/stl_relops.h:
 
 /usr/lib/librt.a:
+
+/usr/lib/libGLdispatch.so.0:
+
+/usr/include/c++/14.2.1/bits/erase_if.h:
 
 /usr/include/bits/cpu-set.h:
 
@@ -2125,17 +2137,9 @@ app/CMakeFiles/app.dir/s_app.cpp.o:
 
 /usr/include/bits/byteswap.h:
 
-/usr/include/c++/14.2.1/bits/chrono_io.h:
-
-/usr/lib/libgcc_s.so.1:
-
-/usr/include/bits/confname.h:
-
 /usr/include/c++/14.2.1/bits/iterator_concepts.h:
 
 /usr/include/c++/14.2.1/bits/locale_classes.h:
-
-/usr/include/glm/ext/quaternion_geometric.inl:
 
 /usr/include/c++/14.2.1/bits/locale_conv.h:
 

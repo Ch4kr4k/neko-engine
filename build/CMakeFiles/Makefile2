@@ -265,12 +265,12 @@ neko/CMakeFiles/neko.dir/all: neko/vendor/imgui/CMakeFiles/imgui.dir/all
 neko/CMakeFiles/neko.dir/all: neko/vendor/stb_image/CMakeFiles/stb_image.dir/all
 	$(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/depend
 	$(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80 "Built target neko"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81 "Built target neko"
 .PHONY : neko/CMakeFiles/neko.dir/all
 
 # Build rule for subdir invocation for target.
 neko/CMakeFiles/neko.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles 79
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles 80
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 neko/CMakeFiles/neko.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles 0
 .PHONY : neko/CMakeFiles/neko.dir/rule
@@ -282,7 +282,7 @@ neko: neko/CMakeFiles/neko.dir/rule
 # codegen rule for target.
 neko/CMakeFiles/neko.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80 "Finished codegen for target neko"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81 "Finished codegen for target neko"
 .PHONY : neko/CMakeFiles/neko.dir/codegen
 
 # clean rule for target.
@@ -361,7 +361,7 @@ neko/vendor/glfw/src/CMakeFiles/glfw.dir/clean:
 neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/build.make neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/build.make neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=83 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=84 "Built target update_mappings"
 .PHONY : neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -378,7 +378,7 @@ update_mappings: neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/rule
 # codegen rule for target.
 neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/build.make neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=83 "Finished codegen for target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=84 "Finished codegen for target update_mappings"
 .PHONY : neko/vendor/glfw/src/CMakeFiles/update_mappings.dir/codegen
 
 # clean rule for target.
@@ -489,7 +489,7 @@ neko/vendor/imgui/CMakeFiles/imgui.dir/clean:
 neko/vendor/stb_image/CMakeFiles/stb_image.dir/all:
 	$(MAKE) $(MAKESILENT) -f neko/vendor/stb_image/CMakeFiles/stb_image.dir/build.make neko/vendor/stb_image/CMakeFiles/stb_image.dir/depend
 	$(MAKE) $(MAKESILENT) -f neko/vendor/stb_image/CMakeFiles/stb_image.dir/build.make neko/vendor/stb_image/CMakeFiles/stb_image.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=81,82 "Built target stb_image"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=82,83 "Built target stb_image"
 .PHONY : neko/vendor/stb_image/CMakeFiles/stb_image.dir/all
 
 # Build rule for subdir invocation for target.
@@ -506,7 +506,7 @@ stb_image: neko/vendor/stb_image/CMakeFiles/stb_image.dir/rule
 # codegen rule for target.
 neko/vendor/stb_image/CMakeFiles/stb_image.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f neko/vendor/stb_image/CMakeFiles/stb_image.dir/build.make neko/vendor/stb_image/CMakeFiles/stb_image.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=81,82 "Finished codegen for target stb_image"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles --progress-num=82,83 "Finished codegen for target stb_image"
 .PHONY : neko/vendor/stb_image/CMakeFiles/stb_image.dir/codegen
 
 # clean rule for target.
@@ -530,7 +530,7 @@ app/CMakeFiles/app.dir/all: neko/vendor/stb_image/CMakeFiles/stb_image.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles 82
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles 83
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/chakrak/ws/proj/src/cpp/game_engine/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/app.dir/rule

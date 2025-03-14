@@ -2,6 +2,7 @@
 #include "neko/platform/opengl/OpenGlShadder.h"
 #include "neko/renderer/OrthographicCamera.h"
 #include "neko/renderer/RenderCommand.h"
+#include "neko/renderer/renderer2D.h"
 #include <glm/fwd.hpp>
 #include <memory>
 #include "renderer.h"
@@ -22,6 +23,7 @@ namespace NEKO
     void Renderer::Init()
     {
         RenderCommand::Init();
+        Renderer2D::Init();
     }
 
     void Renderer::EndScene()

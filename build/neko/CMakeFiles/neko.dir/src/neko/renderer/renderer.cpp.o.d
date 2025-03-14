@@ -441,4 +441,5 @@ neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o: \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/RendererAPI.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/VertexArray.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Buffer.h \
+ /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer2D.h \
  /home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer.h

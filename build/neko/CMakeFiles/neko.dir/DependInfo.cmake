@@ -29,6 +29,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/Texture.cpp" "neko/CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.o" "gcc" "neko/CMakeFiles/neko.dir/src/neko/renderer/Texture.cpp.o.d"
   "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/VertexArray.cpp" "neko/CMakeFiles/neko.dir/src/neko/renderer/VertexArray.cpp.o" "gcc" "neko/CMakeFiles/neko.dir/src/neko/renderer/VertexArray.cpp.o.d"
   "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer.cpp" "neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o" "gcc" "neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.o.d"
+  "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/renderer2D.cpp" "neko/CMakeFiles/neko.dir/src/neko/renderer/renderer2D.cpp.o" "gcc" "neko/CMakeFiles/neko.dir/src/neko/renderer/renderer2D.cpp.o.d"
   "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/renderer/shader.cpp" "neko/CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.o" "gcc" "neko/CMakeFiles/neko.dir/src/neko/renderer/shader.cpp.o.d"
   "/home/chakrak/ws/proj/src/cpp/game_engine/neko/src/neko/winwindows.cpp" "neko/CMakeFiles/neko.dir/src/neko/winwindows.cpp.o" "gcc" "neko/CMakeFiles/neko.dir/src/neko/winwindows.cpp.o.d"
   )

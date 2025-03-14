@@ -679,6 +679,30 @@ src/neko/renderer/renderer.cpp.s:
 	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/renderer/renderer.cpp.s
 .PHONY : src/neko/renderer/renderer.cpp.s
 
+src/neko/renderer/renderer2D.o: src/neko/renderer/renderer2D.cpp.o
+.PHONY : src/neko/renderer/renderer2D.o
+
+# target to build an object file
+src/neko/renderer/renderer2D.cpp.o:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/renderer/renderer2D.cpp.o
+.PHONY : src/neko/renderer/renderer2D.cpp.o
+
+src/neko/renderer/renderer2D.i: src/neko/renderer/renderer2D.cpp.i
+.PHONY : src/neko/renderer/renderer2D.i
+
+# target to preprocess a source file
+src/neko/renderer/renderer2D.cpp.i:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/renderer/renderer2D.cpp.i
+.PHONY : src/neko/renderer/renderer2D.cpp.i
+
+src/neko/renderer/renderer2D.s: src/neko/renderer/renderer2D.cpp.s
+.PHONY : src/neko/renderer/renderer2D.s
+
+# target to generate assembly for a file
+src/neko/renderer/renderer2D.cpp.s:
+	cd /home/chakrak/ws/proj/src/cpp/game_engine/build && $(MAKE) $(MAKESILENT) -f neko/CMakeFiles/neko.dir/build.make neko/CMakeFiles/neko.dir/src/neko/renderer/renderer2D.cpp.s
+.PHONY : src/neko/renderer/renderer2D.cpp.s
+
 src/neko/renderer/shader.o: src/neko/renderer/shader.cpp.o
 .PHONY : src/neko/renderer/shader.o
 
@@ -803,6 +827,9 @@ help:
 	@echo "... src/neko/renderer/renderer.o"
 	@echo "... src/neko/renderer/renderer.i"
 	@echo "... src/neko/renderer/renderer.s"
+	@echo "... src/neko/renderer/renderer2D.o"
+	@echo "... src/neko/renderer/renderer2D.i"
+	@echo "... src/neko/renderer/renderer2D.s"
 	@echo "... src/neko/renderer/shader.o"
 	@echo "... src/neko/renderer/shader.i"
 	@echo "... src/neko/renderer/shader.s"

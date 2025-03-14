@@ -12,6 +12,7 @@
 
 // --- Renderer ---
 #include "neko/renderer/renderer.h"
+#include "neko/renderer/renderer2D.h"
 #include "neko/renderer/RenderCommand.h"
 
 #include "neko/renderer/Buffer.h"
